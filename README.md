@@ -96,3 +96,6 @@
 
 ## Amazon SageMaker
 - Amazon SageMaker is a comprehensive machine learning service that enables developers and data scientists to build, train, and deploy machine learning models quickly. SageMaker can optimize the cost and efficiency of machine learning workflows.
+
+## Amazon Pinpoint
+- Amazon Pinpoint is a flexible and scalable outbound and inbound marketing communication service. It allows you to engage with your customers by sending them email, SMS, voice, and push notifications. Amazon Pinpoint is primarily used for understanding user behavior, defining which users to target, determining which messages to send, scheduling the best time to deliver the messages, and then analyzing the results of your campaigns.
