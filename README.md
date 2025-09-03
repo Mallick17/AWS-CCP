@@ -107,7 +107,22 @@
 - _Components interacting through middleware interfaces encapsulate functionality, enabling the components to evolve independently without causing disruptions in the overall system. This approach adheres to the principle of loose coupling, which minimizes dependencies between components. Middleware provides a standard method for communication, enhancing system flexibility, scalability, and maintainability. By decoupling components, changes, updates, or replacements of individual parts can be done seamlessly, leading to a more resilient architecture. This design is particularly beneficial in cloud environments where scalability and rapid iteration are critical._
 
 
-# Security Best Practices
+## Security Best Practices
 - Use AWS Organizations Service Control Policies (SCPs) to enforce mandatory access key rotation every 90 days.
   - Service Control Policy (SCPs) is a feature of AWS Organizations that allows administrators to define specific permissions for accounts under their management. SCPs enable central governance and restriction of services and actions across multiple AWS accounts. They act as a guardrail, ensuring accounts operate within defined parameters and can be used to enforce compliance, security practices, and cost controls by either whitelisting or blacklisting specific AWS service actions.
   - An SCP that mandates the rotation of IAM user access keys every 90 days can be applied across all accounts in the organization, ensuring compliance. With this policy in place, IAM users will be unable to perform AWS actions with keys older than 90 days, prompting them to rotate their keys. This method offers a proactive and enforced approach to maintain security best practices.
+
+## Amazon QuickSight
+- Amazon QuickSight is a fast, cloud-powered business intelligence service that makes it easy to deliver insights to everyone in your organization. With QuickSight, you can create and publish interactive dashboards that include ML Insights. Dashboards can then be accessed from any device, and embedded into your applications, portals, and websites. Hence, for developing a business intelligence solution with a focus on dashboard reporting, Amazon QuickSight is the most suitable AWS service.
+
+## Amazon Redshift
+- Amazon Redshift is a fully managed, petabyte-scale data warehouse service in the cloud. It's crucial for analyzing large datasets and optimizing queries. But it doesn't provide a dashboard or reporting features like QuickSight.
+
+## Amazon Athena
+- Amazon Athena is an interactive query service that makes it easy to analyze data in Amazon S3 using standard SQL. It doesn't provide dashboard capabilities. For visualizations and dashboarding, data from Athena would typically be imported into a tool like QuickSight.
+
+## AWS Glue
+- AWS Glue is a fully managed extract, transform, and load (ETL) service that makes it easy for users to prepare and load their data for analytics. Glue can help organize, cleanse, validate and format data. It doesn't provide the end-user dashboarding and visualization capabilities that QuickSight does.
+
+
+## 
