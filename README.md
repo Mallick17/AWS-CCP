@@ -16,6 +16,15 @@
 ### AWS Cost & Usage Reports (CUR)
 - AWS Cost & Usage Reports (CUR) is the most comprehensive tool for examining your AWS costs in detail. These reports deliver the most granular level of data about your AWS costs, and they enable you to drill down into your data to gain insights about your AWS usage and spending. The reports contain line item details of your costs, resource usage, and Reserved Instance usage across all AWS services. You can customize the CUR to aggregate data by the hour or day, by product or product resource, or by tags that you define yourself. AWS CUR provides the most extensive data to understand, analyze, and optimize your AWS costs.
 
+### AWS Budgets
+- AWS Budgets allows you to set custom cost and usage budgets to manage your AWS costs. When your costs or usage exceed your budget amount, AWS sends you alerts.
+
+### AWS Cost Explorer
+- AWS Cost Explorer allows you to visualize, understand, and manage your AWS costs and usage over time. It offers a set of reports with different views of your cost data, like monthly spend by AWS service or daily spend.
+  
+### AWS CloudTrail
+- AWS CloudTrail enables governance, compliance, operational auditing, and risk auditing of your AWS account. CloudTrail provides event history of your AWS account activity, including actions taken through the AWS Management Console, AWS SDKs, command line tools, and other AWS services.
+
 ## AWS Cloud Adoption Framework (CAF)
 ### People Perspective
 - Cloud fluency emphasizes the importance of education and knowledge across the organization about cloud technologies and AWS services. Ensuring that staff are cloud-fluent means they understand not only the technical aspects but also the operational, financial, and business implications of using AWS services. This comprehensive understanding enables the organization to maximize the benefits of cloud adoption, fostering innovation, accelerating time to market, and optimizing costs. Cloud fluency supports a culture of continuous learning, empowering teams to make informed decisions, innovate with new services, and adapt processes to use cloud advantages fully. By focusing on cloud fluency, organizations can ensure their workforce is equipped with the necessary skills and knowledge to navigate the complexities of cloud adoption and harness the full potential of AWS Cloud technologies.
