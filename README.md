@@ -55,3 +55,7 @@
 
 ### Enterprise Support Plan
 - The Enterprise Support plan provides the highest level of support, including access to a Technical Account Manager, concierge support, and faster response times across all issues. While it does provide technical support within an hour, the cost associated with this plan is significantly higher and may not be justified for many businesses, making it less cost-effective compared to the Business plan.
+
+## AWS Config
+- AWS Config provides a detailed view of the resources associated with your AWS account, including how they are configured, how they are related to one another, and how the configurations and their relationships have changed over time.
+- AWS Config enables you to assess, audit, and evaluate the configurations of your AWS resources. It can be used to monitor and record compliance.
