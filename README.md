@@ -56,3 +56,6 @@
 ### Enterprise Support Plan
 - The Enterprise Support plan provides the highest level of support, including access to a Technical Account Manager, concierge support, and faster response times across all issues. While it does provide technical support within an hour, the cost associated with this plan is significantly higher and may not be justified for many businesses, making it less cost-effective compared to the Business plan.
 
+## VPC
+### Transit Gateways
+- AWS Transit Gateway is a network transit hub that connects Amazon VPCs and on-premises networks through a central hub. This simplifies network architectures, reducing the complexity and management overhead associated with connecting multiple VPCs and networks. By providing a scalable and high-performance solution, AWS Transit Gateway enables efficient routing and connectivity, supporting thousands of VPCs and VPN connections. It integrates seamlessly with AWS services, enhances security, and supports features like multicast and inter-region peering, making it a versatile choice for large-scale, dynamic cloud environments.
