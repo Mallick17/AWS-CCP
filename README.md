@@ -18,19 +18,7 @@
 ## Amazon Chime
 - Amazon Chime is a communication service that transforms online meetings with a secure, easy-to-use application that you can trust.
 
-## AWS Billing Conductor
-- AWS Billing Conductor (ABC) is a billing and cost allocation service designed for AWS resellers, managed service providers (MSPs), or large organizations with multiple internal departments or business units that need to manage and customize billing and chargeback.
-- AWS Billing Conductor allows customers to customize their AWS billing and create personalized billing experiences. This service can help in managing and understanding your AWS bill.
-- AWS Billing Conductor allows you to:
-  - Create custom billing rates and discounts for different groups of accounts (called account groups).
-  - Define pricing rules (e.g., markups or markdowns).
-  - Generate custom views of billing information for internal teams or customers without affecting the actual AWS charges.
-- You get the real AWS bill with discounted rates, but you need to:
-  - Apply custom pricing (e.g., 5% markup for Client A, 10% for Client B).
-  - Show custom billing summaries to each client.
-  - Keep internal AWS pricing private.
-
-## Billing and Cost Management
+# Billing and Cost Management
 ### Cost Anamoly Detection
 - AWS Cost Anomaly Detection service is designed to monitor for unusual spending patterns within an AWS account. It uses machine learning to detect anomalies in your AWS spending, and alerts you when unexpected changes in cost and usage occur, which could indicate fraudulent activity or mismanagement. This service is ideal for those looking to keep track of their AWS billing and be alerted to potential issues promptly.
 
@@ -43,11 +31,23 @@
 ### AWS Cost Explorer
 - AWS Cost Explorer allows you to visualize, understand, and manage your AWS costs and usage over time. It offers a set of reports with different views of your cost data, like monthly spend by AWS service or daily spend.
 - AWS Cost Explorer is an analytical tool that enables you to visualize, understand, and manage your AWS costs and usage over time. With Cost Explorer, you can identify trends, pinpoint cost drivers, and detect anomalies. Specifically, it provides detailed reports and insights into your spending patterns, including recommendations for how you might reduce costs by rightsizing your services. For Amazon EC2 instances, Cost Explorer can help identify instances that are underutilized or oversized, offering suggestions on how to adjust the size or type of these instances to better align with actual usage, thereby optimizing costs.
+
+## AWS Billing Conductor
+- AWS Billing Conductor (ABC) is a billing and cost allocation service designed for AWS resellers, managed service providers (MSPs), or large organizations with multiple internal departments or business units that need to manage and customize billing and chargeback.
+- AWS Billing Conductor allows customers to customize their AWS billing and create personalized billing experiences. This service can help in managing and understanding your AWS bill.
+- AWS Billing Conductor allows you to:
+  - Create custom billing rates and discounts for different groups of accounts (called account groups).
+  - Define pricing rules (e.g., markups or markdowns).
+  - Generate custom views of billing information for internal teams or customers without affecting the actual AWS charges.
+- You get the real AWS bill with discounted rates, but you need to:
+  - Apply custom pricing (e.g., 5% markup for Client A, 10% for Client B).
+  - Show custom billing summaries to each client.
+  - Keep internal AWS pricing private.
   
 ## AWS CloudTrail
 - AWS CloudTrail enables governance, compliance, operational auditing, and risk auditing of your AWS account. CloudTrail provides event history of your AWS account activity, including actions taken through the AWS Management Console, AWS SDKs, command line tools, and other AWS services.
 
-## AWS Cloud Adoption Framework (CAF)
+# AWS Cloud Adoption Framework (CAF)
 ### People Perspective
 - Cloud fluency emphasizes the importance of education and knowledge across the organization about cloud technologies and AWS services. Ensuring that staff are cloud-fluent means they understand not only the technical aspects but also the operational, financial, and business implications of using AWS services. This comprehensive understanding enables the organization to maximize the benefits of cloud adoption, fostering innovation, accelerating time to market, and optimizing costs. Cloud fluency supports a culture of continuous learning, empowering teams to make informed decisions, innovate with new services, and adapt processes to use cloud advantages fully. By focusing on cloud fluency, organizations can ensure their workforce is equipped with the necessary skills and knowledge to navigate the complexities of cloud adoption and harness the full potential of AWS Cloud technologies.
 
@@ -65,7 +65,7 @@
 ## AWS Trusted Advisor
 - AWS Trusted Advisor provides real-time guidance to help you provision your resources following AWS best practices. It gives recommendations to help you improve your AWS environment in areas such as cost optimization, performance, security, fault tolerance, and service limits.
 
-## AWS Technical Support
+# AWS Technical Support
 ### Business Support Plan
 - The Business Support plan is specifically designed for users who need rapid and comprehensive support. This plan ensures access to AWS technical support within one hour. It includes 24/7 phone, email, and chat support for critical issues, meaning businesses can receive timely assistance when they need it most. Additionally, this plan provides support for third-party applications, offers best practice recommendations, and proactively monitors AWS infrastructure. By opting for the Business Support plan, businesses can achieve a balance between cost and level of service, ensuring that their operational needs are met without the higher cost of the Enterprise plan.
 
@@ -78,7 +78,7 @@
 ### Enterprise Support Plan
 - The Enterprise Support plan provides the highest level of support, including access to a Technical Account Manager, concierge support, and faster response times across all issues. While it does provide technical support within an hour, the cost associated with this plan is significantly higher and may not be justified for many businesses, making it less cost-effective compared to the Business plan.
 
-## VPC
+# VPC
 ### Transit Gateways
 - AWS Transit Gateway is a network transit hub that connects Amazon VPCs and on-premises networks through a central hub. This simplifies network architectures, reducing the complexity and management overhead associated with connecting multiple VPCs and networks. By providing a scalable and high-performance solution, AWS Transit Gateway enables efficient routing and connectivity, supporting thousands of VPCs and VPN connections. It integrates seamlessly with AWS services, enhances security, and supports features like multicast and inter-region peering, making it a versatile choice for large-scale, dynamic cloud environments.
 
@@ -105,3 +105,6 @@
 
 ## Cloud Design Principle of Loose Coupling (AWS Well-Architected Framework)
 - _Components interacting through middleware interfaces encapsulate functionality, enabling the components to evolve independently without causing disruptions in the overall system. This approach adheres to the principle of loose coupling, which minimizes dependencies between components. Middleware provides a standard method for communication, enhancing system flexibility, scalability, and maintainability. By decoupling components, changes, updates, or replacements of individual parts can be done seamlessly, leading to a more resilient architecture. This design is particularly beneficial in cloud environments where scalability and rapid iteration are critical._
+
+
+# Security Best Practices
