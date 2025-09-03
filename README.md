@@ -59,3 +59,12 @@
 ## VPC
 ### Transit Gateways
 - AWS Transit Gateway is a network transit hub that connects Amazon VPCs and on-premises networks through a central hub. This simplifies network architectures, reducing the complexity and management overhead associated with connecting multiple VPCs and networks. By providing a scalable and high-performance solution, AWS Transit Gateway enables efficient routing and connectivity, supporting thousands of VPCs and VPN connections. It integrates seamlessly with AWS services, enhances security, and supports features like multicast and inter-region peering, making it a versatile choice for large-scale, dynamic cloud environments.
+
+### AWS VPN
+- AWS VPN enables encrypted connections from on-premises networks or mobile devices to AWS. Although it provides secure connectivity.
+
+### AWS PrivateLink
+- AWS PrivateLink enables private connectivity between VPCs, AWS services, and on-premises applications without using public IPs. However, it is more suited for service-to-service communication within the same or interlinked VPCs.
+
+## AWS Direct Connect
+- AWS Direct Connect provides a dedicated network connection from an on-premises network to AWS. While it's beneficial for secure and high-bandwidth connections, it is primarily intended for linking your existing networks with AWS, not for interconnecting multiple VPCs across different regions.
