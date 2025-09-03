@@ -39,3 +39,6 @@
 ## AWS DataSync
 - AWS DataSync is an online data movement and discovery service that simplifies and accelerates data migrations to AWS as well as moving data to and from on-premises storage, edge locations, other cloud providers, and AWS Storage services.
 - AWS DataSync includes automatic data validation as a feature. After DataSync transfers the data to the destination, it automatically validates the data by comparing the metadata from the source and destination locations, ensuring that data was transferred accurately and completely. This helps users to have confidence that the transferred data is consistent with the source data.
+
+## AWS Trusted Advisor
+- AWS Trusted Advisor provides real-time guidance to help you provision your resources following AWS best practices. It gives recommendations to help you improve your AWS environment in areas such as cost optimization, performance, security, fault tolerance, and service limits.
