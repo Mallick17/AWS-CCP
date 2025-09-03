@@ -22,7 +22,7 @@
 ### AWS Cost Explorer
 - AWS Cost Explorer allows you to visualize, understand, and manage your AWS costs and usage over time. It offers a set of reports with different views of your cost data, like monthly spend by AWS service or daily spend.
   
-### AWS CloudTrail
+## AWS CloudTrail
 - AWS CloudTrail enables governance, compliance, operational auditing, and risk auditing of your AWS account. CloudTrail provides event history of your AWS account activity, including actions taken through the AWS Management Console, AWS SDKs, command line tools, and other AWS services.
 
 ## AWS Cloud Adoption Framework (CAF)
