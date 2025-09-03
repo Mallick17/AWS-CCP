@@ -102,3 +102,6 @@
 
 ## Amazon Pinpoint
 - Amazon Pinpoint is a flexible and scalable outbound and inbound marketing communication service. It allows you to engage with your customers by sending them email, SMS, voice, and push notifications. Amazon Pinpoint is primarily used for understanding user behavior, defining which users to target, determining which messages to send, scheduling the best time to deliver the messages, and then analyzing the results of your campaigns.
+
+## Cloud Design Principle of Loose Coupling (AWS Well-Architected Framework)
+- _Components interacting through middleware interfaces encapsulate functionality, enabling the components to evolve independently without causing disruptions in the overall system. This approach adheres to the principle of loose coupling, which minimizes dependencies between components. Middleware provides a standard method for communication, enhancing system flexibility, scalability, and maintainability. By decoupling components, changes, updates, or replacements of individual parts can be done seamlessly, leading to a more resilient architecture. This design is particularly beneficial in cloud environments where scalability and rapid iteration are critical._
