@@ -108,3 +108,6 @@
 
 
 # Security Best Practices
+- Use AWS Organizations Service Control Policies (SCPs) to enforce mandatory access key rotation every 90 days.
+  - Service Control Policy (SCPs) is a feature of AWS Organizations that allows administrators to define specific permissions for accounts under their management. SCPs enable central governance and restriction of services and actions across multiple AWS accounts. They act as a guardrail, ensuring accounts operate within defined parameters and can be used to enforce compliance, security practices, and cost controls by either whitelisting or blacklisting specific AWS service actions.
+  - An SCP that mandates the rotation of IAM user access keys every 90 days can be applied across all accounts in the organization, ensuring compliance. With this policy in place, IAM users will be unable to perform AWS actions with keys older than 90 days, prompting them to rotate their keys. This method offers a proactive and enforced approach to maintain security best practices.
