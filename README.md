@@ -18,6 +18,18 @@
 ## Amazon Chime
 - Amazon Chime is a communication service that transforms online meetings with a secure, easy-to-use application that you can trust.
 
+## AWS Billing Conductor
+- AWS Billing Conductor (ABC) is a billing and cost allocation service designed for AWS resellers, managed service providers (MSPs), or large organizations with multiple internal departments or business units that need to manage and customize billing and chargeback.
+- AWS Billing Conductor allows customers to customize their AWS billing and create personalized billing experiences. This service can help in managing and understanding your AWS bill.
+- AWS Billing Conductor allows you to:
+  - Create custom billing rates and discounts for different groups of accounts (called account groups).
+  - Define pricing rules (e.g., markups or markdowns).
+  - Generate custom views of billing information for internal teams or customers without affecting the actual AWS charges.
+- You get the real AWS bill with discounted rates, but you need to:
+  - Apply custom pricing (e.g., 5% markup for Client A, 10% for Client B).
+  - Show custom billing summaries to each client.
+  - Keep internal AWS pricing private.
+
 ## Billing and Cost Management
 ### Cost Anamoly Detection
 - AWS Cost Anomaly Detection service is designed to monitor for unusual spending patterns within an AWS account. It uses machine learning to detect anomalies in your AWS spending, and alerts you when unexpected changes in cost and usage occur, which could indicate fraudulent activity or mismanagement. This service is ideal for those looking to keep track of their AWS billing and be alerted to potential issues promptly.
