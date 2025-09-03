@@ -9,3 +9,6 @@
 ## Amazon Chime
 - Amazon Chime is a communication service that transforms online meetings with a secure, easy-to-use application that you can trust.
 
+## Billing and Cost Management
+### Cost Anamoly Detection
+- AWS Cost Anomaly Detection service is designed to monitor for unusual spending patterns within an AWS account. It uses machine learning to detect anomalies in your AWS spending, and alerts you when unexpected changes in cost and usage occur, which could indicate fraudulent activity or mismanagement. This service is ideal for those looking to keep track of their AWS billing and be alerted to potential issues promptly.
