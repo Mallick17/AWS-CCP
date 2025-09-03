@@ -35,3 +35,7 @@
 
 ## AWS IAM Identity Center (AWS Single Sign-On)
 - AWS IAM Identity Center (AWS SSO) simplifies the management of access to multiple AWS accounts and business applications by allowing users to sign in with a single set of credentials. This service enables administrators to easily manage user access at scale and improve security by eliminating the need for multiple passwords. It also supports automatic user provisioning, which further simplifies the process and ensures users have access only to the resources they need for their job functions.
+
+## AWS DataSync
+- AWS DataSync is an online data movement and discovery service that simplifies and accelerates data migrations to AWS as well as moving data to and from on-premises storage, edge locations, other cloud providers, and AWS Storage services.
+- AWS DataSync includes automatic data validation as a feature. After DataSync transfers the data to the destination, it automatically validates the data by comparing the metadata from the source and destination locations, ensuring that data was transferred accurately and completely. This helps users to have confidence that the transferred data is consistent with the source data.
