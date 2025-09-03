@@ -90,3 +90,9 @@
 
 ## AWS Direct Connect
 - AWS Direct Connect provides a dedicated network connection from an on-premises network to AWS. While it's beneficial for secure and high-bandwidth connections, it is primarily intended for linking your existing networks with AWS, not for interconnecting multiple VPCs across different regions.
+
+## Amazon CodeGuru
+- Amazon CodeGuru is a developer tool that provides intelligent recommendations to improve code quality and identify the most expensive lines of code in your applications. CodeGuru can help optimize the performance and cost of software applications by improving code efficiency.
+
+## Amazon SageMaker
+- Amazon SageMaker is a comprehensive machine learning service that enables developers and data scientists to build, train, and deploy machine learning models quickly. SageMaker can optimize the cost and efficiency of machine learning workflows.
