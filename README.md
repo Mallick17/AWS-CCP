@@ -169,3 +169,10 @@
 
 ## AWS CloudTrail
 - AWS CloudTrail enables governance, compliance, operational auditing, and risk auditing of your AWS account. CloudTrail provides event history of your AWS account activity, including actions taken through the AWS Management Console, AWS SDKs, command line tools, and other AWS services.
+
+## AWS CloudHSM
+- AWS CloudHSM provides hardware-based key storage and cryptographic operations within a tamper-resistant hardware device. This service helps you meet corporate, contractual, and regulatory compliance requirements for data security by using dedicated HSM appliances within the AWS Cloud.
+- CloudHSM empowers users to have complete control over their encryption keys by using FIPS 140-2 Level 3 validated HSMs. This service provides the flexibility to seamlessly integrate with applications using popular APIs like PKCS#11, Java Cryptography Extensions (JCE), and Microsoft CryptoNG (CNG) libraries. By using CloudHSM, companies can ensure the highest level of security for their cryptographic operations while enjoying the flexibility and convenience of industry-standard interfaces.
+
+## AWS KMS
+- AWS Key Management Service (KMS) is a managed service that makes it easy for you to create and control the cryptographic keys used to encrypt your data. AWS KMS does provide a high level of security but it does not offer a dedicated hardware device like AWS CloudHSM does.
