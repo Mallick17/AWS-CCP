@@ -192,4 +192,12 @@
 ## AWS OpsWorks
 - AWS OpsWorks is a configuration management service that automates server provisioning, configuration, and deployment on AWS. It supports Chef and Puppet, allowing users to define configurations as code for their infrastructure. OpsWorks automates tasks such as software installation, code deployment, and auto-scaling, streamlining operations for applications running on AWS. It provides flexibility in managing both EC2 instances and on-premises servers, and integrates with other AWS services like CloudWatch and Auto Scaling for monitoring and scaling resources. OpsWorks simplifies infrastructure management, enabling developers to focus more on building and improving their applications.
 
-## 
+## AWS Artifact
+- AWS Artifact is a repository of compliance documentation, offering access to various audit reports, certifications, and agreements related to AWS services. It simplifies compliance and regulatory requirements for customers by providing on-demand access to documents such as Service Organization Control (SOC) reports, Payment Card Industry(PCI) DSS compliance packages, and HIPAA agreements.
+- AWS Artifact assists in auditing, risk assessment, and meeting regulatory obligations by centralizing necessary documentation in a secure, easily accessible platform. This service ensures transparency and trustworthiness in AWS's security and compliance practices, aiding customers in their own compliance efforts.
+
+## AWS Directory Service
+- AWS Directory Service makes it easy to set up and run directories in the AWS Cloud, or connect your AWS resources with an existing on-premises Microsoft Active Directory.
+
+## AWS Resource Access Manager (RAM)
+- AWS Resource Access Manager (RAM) enables you to easily and securely share AWS resources with any AWS account or within your AWS Organization.
