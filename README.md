@@ -59,9 +59,6 @@
   - Apply custom pricing (e.g., 5% markup for Client A, 10% for Client B).
   - Show custom billing summaries to each client.
   - Keep internal AWS pricing private.
-  
-## AWS CloudTrail
-- AWS CloudTrail enables governance, compliance, operational auditing, and risk auditing of your AWS account. CloudTrail provides event history of your AWS account activity, including actions taken through the AWS Management Console, AWS SDKs, command line tools, and other AWS services.
 
 ---
 
@@ -169,3 +166,6 @@
 - AWS Config enables you to assess, audit, and evaluate the configurations of your AWS resources. It can be used to monitor and record compliance.
 
 ---
+
+## AWS CloudTrail
+- AWS CloudTrail enables governance, compliance, operational auditing, and risk auditing of your AWS account. CloudTrail provides event history of your AWS account activity, including actions taken through the AWS Management Console, AWS SDKs, command line tools, and other AWS services.
