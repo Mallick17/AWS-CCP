@@ -189,4 +189,7 @@
 ## Amazon RDS
 - Amazon RDS (Relational Database Service) is a cloud-based relational database service that simplifies database setup, operation, and scaling. It supports popular database engines like MySQL, PostgreSQL, SQL Server, and offers features like automated backups, monitoring, and high availability.
 
+## AWS OpsWorks
+- AWS OpsWorks is a configuration management service that automates server provisioning, configuration, and deployment on AWS. It supports Chef and Puppet, allowing users to define configurations as code for their infrastructure. OpsWorks automates tasks such as software installation, code deployment, and auto-scaling, streamlining operations for applications running on AWS. It provides flexibility in managing both EC2 instances and on-premises servers, and integrates with other AWS services like CloudWatch and Auto Scaling for monitoring and scaling resources. OpsWorks simplifies infrastructure management, enabling developers to focus more on building and improving their applications.
+
 ## 
