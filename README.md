@@ -183,4 +183,10 @@
 ## AWS CodeDeploy
 - AWS CodeDeploy automates software deployments to a variety of compute services such as Amazon EC2, AWS Fargate, AWS Lambda, and your on-premises servers. It focuses on deploying updates and applications to any instance, helping you to avoid downtime during application deployment and handle the complexity of updating your applications.
 
+## AWS Database Migration Service (DMS)
+- AWS Database Migration Service (DMS) is designed to facilitate the secure, efficient, and relatively easy migration of databases to AWS, including relational databases, data warehouses, NoSQL databases, and other types of data stores. The service supports the migration of data to and from the most widely used commercial and open-source databases. It allows for continuous data replication with high availability and minimal downtime, which is crucial for maintaining the functionality of the source database during the migration process. DMS is a highly recommended solution for companies looking to migrate their Oracle database to AWS without negatively impacting the source database's operations. This service minimizes the downtime to applications that rely on the database and ensures that data is transferred securely and efficiently, enabling a smooth transition to AWS.
 
+## Amazon RDS
+- Amazon RDS (Relational Database Service) is a cloud-based relational database service that simplifies database setup, operation, and scaling. It supports popular database engines like MySQL, PostgreSQL, SQL Server, and offers features like automated backups, monitoring, and high availability.
+
+## 
