@@ -176,3 +176,11 @@
 
 ## AWS KMS
 - AWS Key Management Service (KMS) is a managed service that makes it easy for you to create and control the cryptographic keys used to encrypt your data. AWS KMS does provide a high level of security but it does not offer a dedicated hardware device like AWS CloudHSM does.
+
+## AWS CodeBuild
+- AWS CodeBuild is a fully managed build service that compiles your source code, runs tests, and produces software packages. It is a part of the Continuous Integration (CI) and Continuous Deployment (CD) process. AWS CodeBuild eliminates the need to set up, patch, update, and manage your own build servers, providing prepackaged build environments for popular programming languages and build tools. You can also define custom build environments to use your own build tools. By supporting the CI process, AWS CodeBuild enhances developer productivity and code quality by automating the build and test phases of your software release process.
+
+## AWS CodeDeploy
+- AWS CodeDeploy automates software deployments to a variety of compute services such as Amazon EC2, AWS Fargate, AWS Lambda, and your on-premises servers. It focuses on deploying updates and applications to any instance, helping you to avoid downtime during application deployment and handle the complexity of updating your applications.
+
+
