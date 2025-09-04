@@ -201,3 +201,7 @@
 
 ## AWS Resource Access Manager (RAM)
 - AWS Resource Access Manager (RAM) enables you to easily and securely share AWS resources with any AWS account or within your AWS Organization.
+
+## AWS Snowball
+- AWS Snowball is equipped with built-in computing capabilities, allowing users to perform data processing tasks locally before transferring the data to AWS. This feature is particularly useful for situations where data needs to be pre-processed or filtered to meet specific requirements or to reduce the volume of data that needs to be transferred over the network. The local processing capabilities ensure that only the necessary data is uploaded to the cloud, optimizing transfer times and costs.
+- AWS Snowball provides a secure and efficient way to transfer large amounts of data into and out of the AWS Cloud. It addresses challenges associated with high network costs, long transfer times, and security concerns. By using Snowball, customers can significantly reduce the time and expense involved in moving large datasets by physically shipping the data on Snowball devices, which are designed to be secure and durable. The devices use encryption and other security measures to protect data during transit, making them a reliable choice for sensitive or regulated data.
