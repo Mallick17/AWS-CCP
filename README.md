@@ -227,6 +227,16 @@
 ## AWS Step Functions
 - AWS Step Functions is a serverless workflow service that lets you orchestrate distributed systems using visual workflows. Its a way to coordinate components of distributed applications and microservices.
 
+## AWS Health Dashboard
+### AWS Service Health Dashboard
+- AWS Service Health Dashboard provides real-time information on the status of AWS services across different regions in the AWS Global Infrastructure. It offers a transparent view of any current operational issues with AWS services that might impact customer workloads. This allows customers to monitor the overall performance of the services they are using and identify any disruptions that may be affecting their applications.
+
+### AWS Personal Health Dashboard 
+- AWS Personal Health Dashboard provides alerts and remediation guidance when AWS is experiencing events that may impact your account. It gives a personalized view of the performance and availability of the AWS services underlying your AWS resources. It does not provide a general status for all AWS services in the AWS Global Infrastructure.
+
+## AWS CloudWatch
+- Amazon CloudWatch is a monitoring service for AWS resources and the applications you run on AWS. It collects and tracks metrics, collects and monitors log files, and responds to system-wide performance changes.
+
 ---
 
 # AWS Organizations
@@ -250,6 +260,7 @@
 ### Amazon Inspector
 - Amazon Inspector is a security assessment service that helps improve the security and compliance of applications deployed on AWS. It does so by assessing applications for vulnerabilities or deviations from best practices.
 - Amazon Inspector is an automated security assessment service that helps improve the security and compliance of applications deployed on AWS. It automatically assesses applications for exposure, vulnerabilities, and deviations from best practices. After performing an assessment, Amazon Inspector produces a detailed list of security findings prioritized by level of severity. It can continuously monitor the company's EC2 instances, and it will be a perfect fit for the needs. The Inspector agent that runs on the EC2 instances collects behavior-based data, which can help identify when and where you might have software vulnerabilities or unintended network exposures.
+- Amazon Inspector is a security assessment service that helps identify security vulnerabilities and compliance issues in applications and infrastructure by performing automated security assessments, giving users insights and recommendations to enhance the security posture of their systems. 
 
 ### AWS Shield
 - AWS Shield is a managed Distributed Denial of Service (DDoS) protection service that safeguards applications running on AWS. AWS Shield provides robust security measures.
