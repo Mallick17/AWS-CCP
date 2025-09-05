@@ -233,6 +233,10 @@
 
 ## AWS Storage Gateway
 - AWS Storage Gateway is a hybrid cloud storage service that gives you on-premises access to virtually unlimited cloud storage. While it can be used for data migration, it's not designed for offline data transfer scenarios like Snowball. It is used for connecting on-premise software appliances with cloud-based storage.
+- AWS Storage Gateway is a hybrid cloud storage service that gives you on-premises access to virtually unlimited cloud storage. It seamlessly integrates on-premises IT environments with cloud storage for backup and restore, archiving, disaster recovery, cloud data processing, storage tiering, and migration. It connects an on-premises software appliance with AWS cloud-based storage for seamless integration between your on-premises IT environment and AWS storage infrastructure.
+
+<img width="1321" height="733" alt="image" src="https://github.com/user-attachments/assets/ea6140a2-dfcd-42a9-a96d-ac654422af7f" />
+
 
 ## Amazon MQ
 - Amazon MQ is a managed message broker service for Apache ActiveMQ that makes it easy to set up and operate message brokers in the cloud. It's ideal for application developers who are using open source message brokers and want a fully managed service that works seamlessly with their existing applications. It also simplifies migrating on-premises message brokers to the cloud, as you can use your existing code and messaging protocols like JMS and NMS.
