@@ -78,18 +78,6 @@
 
 ---
 
-## AWS IAM Identity Center (AWS Single Sign-On)
-- AWS IAM Identity Center (AWS SSO) simplifies the management of access to multiple AWS accounts and business applications by allowing users to sign in with a single set of credentials. This service enables administrators to easily manage user access at scale and improve security by eliminating the need for multiple passwords. It also supports automatic user provisioning, which further simplifies the process and ensures users have access only to the resources they need for their job functions.
-
-## AWS DataSync
-- AWS DataSync is an online data movement and discovery service that simplifies and accelerates data migrations to AWS as well as moving data to and from on-premises storage, edge locations, other cloud providers, and AWS Storage services.
-- AWS DataSync includes automatic data validation as a feature. After DataSync transfers the data to the destination, it automatically validates the data by comparing the metadata from the source and destination locations, ensuring that data was transferred accurately and completely. This helps users to have confidence that the transferred data is consistent with the source data.
-
-## AWS Trusted Advisor
-- AWS Trusted Advisor provides real-time guidance to help you provision your resources following AWS best practices. It gives recommendations to help you improve your AWS environment in areas such as cost optimization, performance, security, fault tolerance, and service limits.
-
----
-
 # AWS Technical Support
 ### Business Support Plan
 - The Business Support plan is specifically designed for users who need rapid and comprehensive support. This plan ensures access to AWS technical support within one hour. It includes 24/7 phone, email, and chat support for critical issues, meaning businesses can receive timely assistance when they need it most. Additionally, this plan provides support for third-party applications, offers best practice recommendations, and proactively monitors AWS infrastructure. By opting for the Business Support plan, businesses can achieve a balance between cost and level of service, ensuring that their operational needs are met without the higher cost of the Enterprise plan.
@@ -117,6 +105,16 @@
 
 ---
 
+## AWS IAM Identity Center (AWS Single Sign-On)
+- AWS IAM Identity Center (AWS SSO) simplifies the management of access to multiple AWS accounts and business applications by allowing users to sign in with a single set of credentials. This service enables administrators to easily manage user access at scale and improve security by eliminating the need for multiple passwords. It also supports automatic user provisioning, which further simplifies the process and ensures users have access only to the resources they need for their job functions.
+
+## AWS DataSync
+- AWS DataSync is an online data movement and discovery service that simplifies and accelerates data migrations to AWS as well as moving data to and from on-premises storage, edge locations, other cloud providers, and AWS Storage services.
+- AWS DataSync includes automatic data validation as a feature. After DataSync transfers the data to the destination, it automatically validates the data by comparing the metadata from the source and destination locations, ensuring that data was transferred accurately and completely. This helps users to have confidence that the transferred data is consistent with the source data.
+
+## AWS Trusted Advisor
+- AWS Trusted Advisor provides real-time guidance to help you provision your resources following AWS best practices. It gives recommendations to help you improve your AWS environment in areas such as cost optimization, performance, security, fault tolerance, and service limits.
+
 ## AWS Outposts
 - AWS Outposts is a fully managed service that extends AWS infrastructure, services, APIs, and tools to virtually any on-premises facility, including data centers and co-location environments, creating a truly consistent hybrid experience. This solution is ideal for applications that require low latency access to on-premises systems, local data processing, or local data storage. By bringing native AWS services to on-premises locations, Outposts enables customers to operate in a hybrid environment seamlessly, using the same AWS management console, APIs, and control services they're familiar with in the cloud. This ensures a unified way to manage both cloud and on-premises resources, simplifying operations and reducing the time to market for applications that need to span both environments.
 
@@ -132,15 +130,6 @@
 ## Amazon Pinpoint
 - Amazon Pinpoint is a flexible and scalable outbound and inbound marketing communication service. It allows you to engage with your customers by sending them email, SMS, voice, and push notifications. Amazon Pinpoint is primarily used for understanding user behavior, defining which users to target, determining which messages to send, scheduling the best time to deliver the messages, and then analyzing the results of your campaigns.
 
-## Cloud Design Principle of Loose Coupling (AWS Well-Architected Framework)
-- _Components interacting through middleware interfaces encapsulate functionality, enabling the components to evolve independently without causing disruptions in the overall system. This approach adheres to the principle of loose coupling, which minimizes dependencies between components. Middleware provides a standard method for communication, enhancing system flexibility, scalability, and maintainability. By decoupling components, changes, updates, or replacements of individual parts can be done seamlessly, leading to a more resilient architecture. This design is particularly beneficial in cloud environments where scalability and rapid iteration are critical._
-
-
-## Security Best Practices
-- Use AWS Organizations Service Control Policies (SCPs) to enforce mandatory access key rotation every 90 days.
-  - Service Control Policy (SCPs) is a feature of AWS Organizations that allows administrators to define specific permissions for accounts under their management. SCPs enable central governance and restriction of services and actions across multiple AWS accounts. They act as a guardrail, ensuring accounts operate within defined parameters and can be used to enforce compliance, security practices, and cost controls by either whitelisting or blacklisting specific AWS service actions.
-  - An SCP that mandates the rotation of IAM user access keys every 90 days can be applied across all accounts in the organization, ensuring compliance. With this policy in place, IAM users will be unable to perform AWS actions with keys older than 90 days, prompting them to rotate their keys. This method offers a proactive and enforced approach to maintain security best practices.
-
 ## Amazon QuickSight
 - Amazon QuickSight is a fast, cloud-powered business intelligence service that makes it easy to deliver insights to everyone in your organization. With QuickSight, you can create and publish interactive dashboards that include ML Insights. Dashboards can then be accessed from any device, and embedded into your applications, portals, and websites. Hence, for developing a business intelligence solution with a focus on dashboard reporting, Amazon QuickSight is the most suitable AWS service.
 
@@ -152,26 +141,6 @@
 
 ## AWS Glue
 - AWS Glue is a fully managed extract, transform, and load (ETL) service that makes it easy for users to prepare and load their data for analytics. Glue can help organize, cleanse, validate and format data. It doesn't provide the end-user dashboarding and visualization capabilities that QuickSight does.
-
----
-
-# AWS Security Hub
-### AWS Systems Manager(SSM)
-- AWS Systems Manage gives you visibility and control of your infrastructure on AWS. This service allows you to group your resources according to applications, view operational data for monitoring and troubleshooting, and take action on your groups of resources. AWS Systems Manager simplifies resource and application management, shortens the time to detect and resolve operational problems, and makes it easy to operate and manage your infrastructure securely at scale. It provides a unified user interface so you can view operational data from multiple AWS services and allows you to automate operational tasks across your AWS resources.
-- AWS Systems Manager allows you to view and control your AWS resources. It helps to identify and resolve operational issues quickly across multiple AWS resources, thereby simplifying operational tasks and reducing the time it takes to resolve them. With AWS Systems Manager, you can group resources, like Amazon EC2 instances or Amazon S3 buckets, by application, view operational data for monitoring and troubleshooting, and take action on your groups of resources. AWS Systems Manager helps you to maintain security and compliance by scanning your instances against your patch, configuration, and custom policies.
-
-### Amazon Inspector
-- Amazon Inspector is a security assessment service that helps improve the security and compliance of applications deployed on AWS. It does so by assessing applications for vulnerabilities or deviations from best practices.
-- Amazon Inspector is an automated security assessment service that helps improve the security and compliance of applications deployed on AWS. It automatically assesses applications for exposure, vulnerabilities, and deviations from best practices. After performing an assessment, Amazon Inspector produces a detailed list of security findings prioritized by level of severity. It can continuously monitor the company's EC2 instances, and it will be a perfect fit for the needs. The Inspector agent that runs on the EC2 instances collects behavior-based data, which can help identify when and where you might have software vulnerabilities or unintended network exposures.
-
-### AWS Shield
-- AWS Shield is a managed Distributed Denial of Service (DDoS) protection service that safeguards applications running on AWS. AWS Shield provides robust security measures.
-
-### AWS Config
-- AWS Config provides a detailed view of the resources associated with your AWS account, including how they are configured, how they are related to one another, and how the configurations and their relationships have changed over time.
-- AWS Config enables you to assess, audit, and evaluate the configurations of your AWS resources. It can be used to monitor and record compliance.
-
----
 
 ## AWS CloudTrail
 - AWS CloudTrail enables governance, compliance, operational auditing, and risk auditing of your AWS account. CloudTrail provides event history of your AWS account activity, including actions taken through the AWS Management Console, AWS SDKs, command line tools, and other AWS services.
@@ -212,9 +181,38 @@
 - AWS Snowball is equipped with built-in computing capabilities, allowing users to perform data processing tasks locally before transferring the data to AWS. This feature is particularly useful for situations where data needs to be pre-processed or filtered to meet specific requirements or to reduce the volume of data that needs to be transferred over the network. The local processing capabilities ensure that only the necessary data is uploaded to the cloud, optimizing transfer times and costs.
 - AWS Snowball provides a secure and efficient way to transfer large amounts of data into and out of the AWS Cloud. It addresses challenges associated with high network costs, long transfer times, and security concerns. By using Snowball, customers can significantly reduce the time and expense involved in moving large datasets by physically shipping the data on Snowball devices, which are designed to be secure and durable. The devices use encryption and other security measures to protect data during transit, making them a reliable choice for sensitive or regulated data.
 
+---
+
+# AWS Security Hub
+### AWS Systems Manager(SSM)
+- AWS Systems Manage gives you visibility and control of your infrastructure on AWS. This service allows you to group your resources according to applications, view operational data for monitoring and troubleshooting, and take action on your groups of resources. AWS Systems Manager simplifies resource and application management, shortens the time to detect and resolve operational problems, and makes it easy to operate and manage your infrastructure securely at scale. It provides a unified user interface so you can view operational data from multiple AWS services and allows you to automate operational tasks across your AWS resources.
+- AWS Systems Manager allows you to view and control your AWS resources. It helps to identify and resolve operational issues quickly across multiple AWS resources, thereby simplifying operational tasks and reducing the time it takes to resolve them. With AWS Systems Manager, you can group resources, like Amazon EC2 instances or Amazon S3 buckets, by application, view operational data for monitoring and troubleshooting, and take action on your groups of resources. AWS Systems Manager helps you to maintain security and compliance by scanning your instances against your patch, configuration, and custom policies.
+
+### Amazon Inspector
+- Amazon Inspector is a security assessment service that helps improve the security and compliance of applications deployed on AWS. It does so by assessing applications for vulnerabilities or deviations from best practices.
+- Amazon Inspector is an automated security assessment service that helps improve the security and compliance of applications deployed on AWS. It automatically assesses applications for exposure, vulnerabilities, and deviations from best practices. After performing an assessment, Amazon Inspector produces a detailed list of security findings prioritized by level of severity. It can continuously monitor the company's EC2 instances, and it will be a perfect fit for the needs. The Inspector agent that runs on the EC2 instances collects behavior-based data, which can help identify when and where you might have software vulnerabilities or unintended network exposures.
+
+### AWS Shield
+- AWS Shield is a managed Distributed Denial of Service (DDoS) protection service that safeguards applications running on AWS. AWS Shield provides robust security measures.
+
+### AWS Config
+- AWS Config provides a detailed view of the resources associated with your AWS account, including how they are configured, how they are related to one another, and how the configurations and their relationships have changed over time.
+- AWS Config enables you to assess, audit, and evaluate the configurations of your AWS resources. It can be used to monitor and record compliance.
+  
+---
+
 # Cloud Concepts
 ## Total Cost of Ownership (TCO) analysis when considering a migration to AWS Cloud
 - The cost of training staff on AWS Cloud services
   - When calculating the TCO for a migration to AWS, it's important to consider the cost of training staff on AWS Cloud services. This ensures that the team can effectively manage and operate within the AWS ecosystem, using its full potential to achieve operational efficiency and cost savings. Training can lead to better resource management, improved security posture, and optimal application performance, all of which contribute to a more accurate TCO calculation.
 - Estimated operational costs for maintaining on-premises servers
   - Operational costs for maintaining on-premises servers should be a core component of TCO analysis. These costs include not only direct expenses such as power, cooling, and maintenance staff but also indirect costs like system administration, network management, and software licenses. When considering AWS Cloud, it's crucial to compare these ongoing costs to the variable, consumption-based pricing of AWS services to determine potential savings.
+
+## Cloud Design Principle of Loose Coupling (AWS Well-Architected Framework)
+- _Components interacting through middleware interfaces encapsulate functionality, enabling the components to evolve independently without causing disruptions in the overall system. This approach adheres to the principle of loose coupling, which minimizes dependencies between components. Middleware provides a standard method for communication, enhancing system flexibility, scalability, and maintainability. By decoupling components, changes, updates, or replacements of individual parts can be done seamlessly, leading to a more resilient architecture. This design is particularly beneficial in cloud environments where scalability and rapid iteration are critical._
+
+
+## Security Best Practices
+- Use AWS Organizations Service Control Policies (SCPs) to enforce mandatory access key rotation every 90 days.
+  - Service Control Policy (SCPs) is a feature of AWS Organizations that allows administrators to define specific permissions for accounts under their management. SCPs enable central governance and restriction of services and actions across multiple AWS accounts. They act as a guardrail, ensuring accounts operate within defined parameters and can be used to enforce compliance, security practices, and cost controls by either whitelisting or blacklisting specific AWS service actions.
+  - An SCP that mandates the rotation of IAM user access keys every 90 days can be applied across all accounts in the organization, ensuring compliance. With this policy in place, IAM users will be unable to perform AWS actions with keys older than 90 days, prompting them to rotate their keys. This method offers a proactive and enforced approach to maintain security best practices.
