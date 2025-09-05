@@ -245,6 +245,9 @@
 ## AWS CloudWatch
 - Amazon CloudWatch is a monitoring service for AWS resources and the applications you run on AWS. It collects and tracks metrics, collects and monitors log files, and responds to system-wide performance changes.
 
+## AWS Control Tower
+- AWS Control Tower automates the setup of a baseline environment or landing zone, that is secure, well-architected, and multi-account based. It's designed to simplify the management of multiple AWS accounts and enforce governance and compliance standards across your AWS environment. Although AWS Control Tower helps enforce policies and provides guardrails, it doesn't analyze individual resource policies to determine if an Amazon S3 bucket or an IAM role allows access from an external entity. Its focus is on governance at a higher level, not on detailed policy analysis.
+
 ---
 
 # AWS Organizations
