@@ -12,13 +12,17 @@
 
 # AWS Well-Architected Framework
 ## AWS Well-Architected Tool
-- AWS Well-Architected Tool helps to build secure, high-performing, resilient, and efficient infrastructure for applications. Based on the AWS Well-Architected Framework, this provides a consistent approach for evaluating architectures and implementing designs that will scale over time. It offers guidance across five pillars: operational excellence, security, reliability, performance efficiency, cost optimization, and sustainability. By using the AWS Well-Architected Tool, developers can assess their workloads against best practices and receive recommendations for improvements, making it an indispensable resource for ensuring well-architected solutions on AWS.
+- AWS Well-Architected Tool helps to build secure, high-performing, resilient, and efficient infrastructure for applications. Based on the AWS Well-Architected Framework, this provides a consistent approach for evaluating architectures and implementing designs that will scale over time. _**It offers guidance across five pillars: operational excellence, security, reliability, performance efficiency, cost optimization, and sustainability.**_ By using the AWS Well-Architected Tool, developers can assess their workloads against best practices and receive recommendations for improvements, making it an indispensable resource for ensuring well-architected solutions on AWS.
 
 ### Operational Excellence
 - Operational Excellence emphasizes the importance of operating and monitoring systems to deliver business value and continually improve processes and procedures. It includes best practices for managing and automating changes, responding to events, and defining standards to manage daily operations. This pillar ensures that systems are running efficiently and are designed to evolve as needs change, helping businesses to operate at peak efficiency while maintaining the ability to innovate and improve continuously.
 
 ### Security
 - The Security pillar focuses on protecting information and systems.
+-  The Security pillar of the AWS Well-Architected Framework involves protecting data, systems, and assets to take advantage of cloud technologies to improve your security.
+
+### Reliability
+- The Reliability pillar of the AWS Well-Architected Framework refers to the ability of a system to recover from infrastructure or service disruptions, dynamically acquire computing resources to meet demand, and mitigate disruptions such as misconfigurations or transient network issues. By deploying Amazon EC2 instances across multiple Availability Zones (AZs), you're creating a setup that's resilient to the failure of a single location, thereby improving the reliability of your system. This ensures that your applications remain available and users have consistent access, aligning directly with the goals of the Reliability pillar.
 
 ### Performance Efficiency
 - The Performance Efficiency pillar concentrates on the efficient use of compute resources to meet requirements and maintaining that efficiency as demand changes. It is more about specifying the right type and size of resources rather than continuous improvement of operational procedures.
