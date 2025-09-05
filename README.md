@@ -168,6 +168,18 @@
 
 ## Amazon RDS
 - Amazon RDS (Relational Database Service) is a cloud-based relational database service that simplifies database setup, operation, and scaling. It supports popular database engines like MySQL, PostgreSQL, SQL Server, and offers features like automated backups, monitoring, and high availability.
+- Amazon RDS (Relational Database Service) provides a relational database structure, which is more suited to structured data and traditional SQL-based applications. Amazon RDS wouldn't be the optimal choice because it does not offer the same low-latency performance that an in-memory database like Amazon MemoryDB does.
+
+## Amazon MemoryDB
+- Amazon MemoryDB is a fully managed in-memory database service built on an architecture designed for durability and fault tolerance. It is designed to support applications requiring microsecond read latency and high-speed data ingestion, making it a perfect fit for a gaming application like the one described.
+- Amazon MemoryDB supports data structures such as strings, lists, sets, sorted sets, hashes, and streams – features that will be beneficial for maintaining gaming sessions and leaderboards. It ensures high availability by replicating data across multiple Availability Zones, providing a multi-AZ fault-tolerant architecture that makes it suitable for use cases demanding high reliability and business continuity.
+- MemoryDB provides better data persistence and reliability with its Multi-AZ replication feature.
+
+## Amazon DynamoDB
+- Amazon DynamoDB is a key-value and document database that delivers single-digit millisecond performance at any scale. It's a fully managed, multi-region, multi-master database with built-in security, backup and restore, and in-memory caching. However, when it comes to storing session history and managing leaderboards for a gaming application, Amazon MemoryDB, with its microsecond latency, could provide a more instantaneous response.
+
+## Amazon ElastiCache
+- Amazon ElastiCache allows you to seamlessly set up, run, and scale popular open-source compatible in-memory data stores in the cloud. ElastiCache could potentially be used in the gaming scenario.
 
 ## AWS OpsWorks
 - AWS OpsWorks is a configuration management service that automates server provisioning, configuration, and deployment on AWS. It supports Chef and Puppet, allowing users to define configurations as code for their infrastructure. OpsWorks automates tasks such as software installation, code deployment, and auto-scaling, streamlining operations for applications running on AWS. It provides flexibility in managing both EC2 instances and on-premises servers, and integrates with other AWS services like CloudWatch and Auto Scaling for monitoring and scaling resources. OpsWorks simplifies infrastructure management, enabling developers to focus more on building and improving their applications.
