@@ -57,6 +57,7 @@
 
 ## AWS Billing Conductor
 - AWS Billing Conductor (ABC) is a billing and cost allocation service designed for AWS resellers, managed service providers (MSPs), or large organizations with multiple internal departments or business units that need to manage and customize billing and chargeback.
+- AWS Billing Conductor allows customers to customize and share detailed cost reports with showback and chargeback information. It provides advanced billing support by enabling enterprises to map their AWS usage and costs to their internal structures. This tool is especially useful for growing companies needing to allocate costs accurately across different departments or projects. It also offers the flexibility to create custom pricing for internal or external customers, helping companies understand and manage their AWS spending more effectively.
 - AWS Billing Conductor allows customers to customize their AWS billing and create personalized billing experiences. This service can help in managing and understanding your AWS bill.
 - AWS Billing Conductor allows you to:
   - Create custom billing rates and discounts for different groups of accounts (called account groups).
