@@ -205,12 +205,17 @@
 - AWS Systems Manage gives you visibility and control of your infrastructure on AWS. This service allows you to group your resources according to applications, view operational data for monitoring and troubleshooting, and take action on your groups of resources. AWS Systems Manager simplifies resource and application management, shortens the time to detect and resolve operational problems, and makes it easy to operate and manage your infrastructure securely at scale. It provides a unified user interface so you can view operational data from multiple AWS services and allows you to automate operational tasks across your AWS resources.
 - AWS Systems Manager allows you to view and control your AWS resources. It helps to identify and resolve operational issues quickly across multiple AWS resources, thereby simplifying operational tasks and reducing the time it takes to resolve them. With AWS Systems Manager, you can group resources, like Amazon EC2 instances or Amazon S3 buckets, by application, view operational data for monitoring and troubleshooting, and take action on your groups of resources. AWS Systems Manager helps you to maintain security and compliance by scanning your instances against your patch, configuration, and custom policies.
 
+## AWS Firewall Manager
+- AWS Firewall Manager is a security management service that centrally configures and manages firewall rules across multiple AWS accounts and resources. It automates the deployment and enforcement of security policies, ensuring consistent protection for applications deployed in AWS. Firewall Manager supports AWS WAF, AWS Shield Advanced, and VPC security groups, allowing administrators to create and apply rules based on security best practices. It simplifies compliance by providing a unified view of security policies and their enforcement status, thereby enhancing the overall security posture of AWS environments.
+
 ### Amazon Inspector
 - Amazon Inspector is a security assessment service that helps improve the security and compliance of applications deployed on AWS. It does so by assessing applications for vulnerabilities or deviations from best practices.
 - Amazon Inspector is an automated security assessment service that helps improve the security and compliance of applications deployed on AWS. It automatically assesses applications for exposure, vulnerabilities, and deviations from best practices. After performing an assessment, Amazon Inspector produces a detailed list of security findings prioritized by level of severity. It can continuously monitor the company's EC2 instances, and it will be a perfect fit for the needs. The Inspector agent that runs on the EC2 instances collects behavior-based data, which can help identify when and where you might have software vulnerabilities or unintended network exposures.
 
 ### AWS Shield
 - AWS Shield is a managed Distributed Denial of Service (DDoS) protection service that safeguards applications running on AWS. AWS Shield provides robust security measures.
+- AWS Shield Standard provides protection against most common network and transport layer DDoS attacks.
+- AWS Shield Advanced provides advanced DDoS protection and additional features such as detailed attack diagnostics and the option for cost protection.
 
 ### AWS Config
 - AWS Config provides a detailed view of the resources associated with your AWS account, including how they are configured, how they are related to one another, and how the configurations and their relationships have changed over time.
