@@ -1,4 +1,4 @@
-# AWS-Services
+<img width="2554" height="790" alt="image" src="https://github.com/user-attachments/assets/17edb377-9e77-4b8b-b6eb-0276b4f3956d" /># AWS-Services
 ## AWS Knowledge Center
 - The AWS Knowledge Center is a valuable resource that offers answers to many of the questions about how to operate and troubleshoot various AWS services. It compiles insights and best practices from AWS support engineers, based on the common issues and solutions they encounter. This makes it an excellent tool for developers seeking to quickly resolve operational challenges or understand best practices for using AWS services. The Knowledge Center helps teams avoid common pitfalls and use AWS capabilities more effectively, ensuring they can maintain secure, high-performing, and reliable applications while optimizing cost.
 
@@ -346,3 +346,28 @@
 - Use AWS Organizations Service Control Policies (SCPs) to enforce mandatory access key rotation every 90 days.
   - Service Control Policy (SCPs) is a feature of AWS Organizations that allows administrators to define specific permissions for accounts under their management. SCPs enable central governance and restriction of services and actions across multiple AWS accounts. They act as a guardrail, ensuring accounts operate within defined parameters and can be used to enforce compliance, security practices, and cost controls by either whitelisting or blacklisting specific AWS service actions.
   - An SCP that mandates the rotation of IAM user access keys every 90 days can be applied across all accounts in the organization, ensuring compliance. With this policy in place, IAM users will be unable to perform AWS actions with keys older than 90 days, prompting them to rotate their keys. This method offers a proactive and enforced approach to maintain security best practices.
+
+---
+
+# Questions and Answers
+
+### _**1. An organization wants to redesign a monolithic application into microservices on AWS. What will be the main benefits of adopting the microservices architecture?**_
+
+<details>
+  <summary>Click to view Answer</summary>
+
+Correct Options:
+- This architecture enables independent scaling of application components.
+  - Microservices architecture allows an application to be divided into smaller, independent components, each performing a distinct function. These components, or microservices, can be deployed, updated, and scaled independently. This modularity means that if one service experiences a surge in demand, only that particular microservice needs to be scaled, which leads to more efficient resource utilization and cost savings. This feature is especially useful for organizations that experience variable load patterns, ensuring they can handle peak loads without over-provisioning resources during regular operation.
+
+Incorrect Options:
+- This architecture reduces the complexity of component-to-component communication.
+  - Microservices typically need to communicate over a network, which introduces challenges such as latency, message serialization, and potential network failures. This complexity is higher compared to monolithic architectures where components communicate through direct function calls. Therefore, microservices might increase the complexity in terms of managing inter-service communication and maintaining consistency.
+
+- This architecture provides a maximum threshold limit to save costs.
+  - Microservices architecture does not provide a "maximum threshold limit" to save costs. While it can optimize resource utilization and potentially reduce costs by allowing independent scaling, there is no fixed threshold limit. Microservices might lead to higher operational costs if not managed well due to factors like increased instances, needing multiple data stores, and network communication overheads.
+
+- This architecture significantly decreases management overhead.
+  - Microservices can actually increase management overhead. This is because each microservice can have its own deployment, logging, monitoring, and scaling requirements. Managing a large number of services requires more sophisticated orchestration and automation tools, like Kubernetes, which can add to the management complexity.
+
+</details>
