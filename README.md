@@ -68,6 +68,9 @@
   - Show custom billing summaries to each client.
   - Keep internal AWS pricing private.
 
+## AWS Account Managers
+- AWS Account Managers assist with account-specific inquiries and strategic guidance. While it can provide general support and may offer advice on cost optimization.
+
 ---
 
 # AWS Cloud Adoption Framework (CAF)
@@ -150,6 +153,9 @@
 
 ## AWS Direct Connect
 - AWS Direct Connect provides a dedicated network connection from on-premises to AWS(dedicated network connection between your network and one of the AWS Direct Connect locations), enhancing bandwidth throughput and providing a more consistent network experience than internet-based connections, it is primarily intended for linking your existing networks with AWS. Although it facilitates the connection to AWS, it does not extend AWS services, APIs, or tools into on-premises environments.
+
+## Amazon Connect
+- Amazon Connect is a cloud-based contact center service
   
 ## Amazon CodeGuru
 - Amazon CodeGuru is a developer tool that provides intelligent recommendations to improve code quality and identify the most expensive lines of code in your applications. CodeGuru can help optimize the performance and cost of software applications by improving code efficiency.
