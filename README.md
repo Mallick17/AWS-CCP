@@ -25,7 +25,7 @@
 - The Reliability pillar of the AWS Well-Architected Framework refers to the ability of a system to recover from infrastructure or service disruptions, dynamically acquire computing resources to meet demand, and mitigate disruptions such as misconfigurations or transient network issues. By deploying Amazon EC2 instances across multiple Availability Zones (AZs), you're creating a setup that's resilient to the failure of a single location, thereby improving the reliability of your system. This ensures that your applications remain available and users have consistent access, aligning directly with the goals of the Reliability pillar.
 
 ### Performance Efficiency
-- The Performance Efficiency pillar concentrates on the efficient use of compute resources to meet requirements and maintaining that efficiency as demand changes. It is more about specifying the right type and size of resources rather than continuous improvement of operational procedures.
+- Performance Efficiency in the AWS Well-Architected Framework is about using computing resources efficiently to meet system requirements and maintaining that efficiency as demand changes and technologies evolve. It is more about specifying the right type and size of resources rather than continuous improvement of operational procedures.
   
 ### Cost Optimization
 - The Cost Optimization pillar is concerned with the continual effort to avoid or eliminate unnecessary costs while building systems that are scalable to meet business needs. It focuses on identifying cost-cutting opportunities.
