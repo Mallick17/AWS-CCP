@@ -231,9 +231,23 @@
 ## AWS Resource Access Manager (RAM)
 - AWS Resource Access Manager (RAM) enables you to easily and securely share AWS resources with any AWS account or within your AWS Organization.
 
+# AWS Snow Family
 ## AWS Snowball
 - AWS Snowball is equipped with built-in computing capabilities, allowing users to perform data processing tasks locally before transferring the data to AWS. This feature is particularly useful for situations where data needs to be pre-processed or filtered to meet specific requirements or to reduce the volume of data that needs to be transferred over the network. The local processing capabilities ensure that only the necessary data is uploaded to the cloud, optimizing transfer times and costs.
-- AWS Snowball provides a secure and efficient way to transfer large amounts of data into and out of the AWS Cloud. It addresses challenges associated with high network costs, long transfer times, and security concerns. By using Snowball, customers can significantly reduce the time and expense involved in moving large datasets by physically shipping the data on Snowball devices, which are designed to be secure and durable. The devices use encryption and other security measures to protect data during transit, making them a reliable choice for sensitive or regulated data.
+- AWS Snowball is a data transport solution that uses secure devices to transfer large amounts of data into and out of the AWS Cloud. It addresses common challenges with large-scale data transfers such as high network costs, long transfer times, and security concerns. By using Snowball, customers can significantly reduce the time and expense involved in moving large datasets by physically shipping the data on Snowball devices, which are designed to be secure and durable. The devices use encryption and other security measures to protect data during transit, making them a reliable choice for sensitive or regulated data.
+-  Transferring data with Snowball is simple, fast, more secure, and can be one-fifth the cost of high-speed internet. Snowball uses end-to-end encryption and tamper-resistant enclosures to help ensure the security of your data. This is important when you're dealing with large amounts of sensitive data, as it's crucial to keep that data secure during transit.
+> For a data migration scenario involving 70 TB of data, Snowball is the ideal choice. A single Snowball device can support data transfers up to 80 TB, which is well within the requirements of this task. The process is relatively straightforward: AWS ships a Snowball device to your location, you load your data onto the device using the Snowball client, and then ship it back to AWS. Once the device is back at an AWS data center, your data is imported into Amazon S3.
+
+## AWS Snowcone
+- AWS Snowcone is the smallest member of the AWS Snow Family of edge computing, storage, and data transfer devices. It is designed for use cases such as data migration, content distribution, data collection etc.
+> However, it can only store up to 8 TB of data.
+
+## AWS Snowmobile
+- AWS Snowmobile is an Exabyte-scale data transfer service used to move extremely large amounts of data to AWS. You can transfer up to 100 PB per Snowmobile, a 45-foot long ruggedized shipping container, pulled by a semi-trailer truck.
+> Snowmobile would be over-priced for a 70 TB data transfer.
+
+## AWS Storage Gateway
+- AWS Storage Gateway is a hybrid cloud storage service that gives you on-premises access to virtually unlimited cloud storage. While it can be used for data migration, it's not designed for offline data transfer scenarios like Snowball. It is used for connecting on-premise software appliances with cloud-based storage.
 
 ## Amazon MQ
 - Amazon MQ is a managed message broker service for Apache ActiveMQ that makes it easy to set up and operate message brokers in the cloud. It's ideal for application developers who are using open source message brokers and want a fully managed service that works seamlessly with their existing applications. It also simplifies migrating on-premises message brokers to the cloud, as you can use your existing code and messaging protocols like JMS and NMS.
