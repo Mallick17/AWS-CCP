@@ -200,6 +200,18 @@
 - AWS Snowball is equipped with built-in computing capabilities, allowing users to perform data processing tasks locally before transferring the data to AWS. This feature is particularly useful for situations where data needs to be pre-processed or filtered to meet specific requirements or to reduce the volume of data that needs to be transferred over the network. The local processing capabilities ensure that only the necessary data is uploaded to the cloud, optimizing transfer times and costs.
 - AWS Snowball provides a secure and efficient way to transfer large amounts of data into and out of the AWS Cloud. It addresses challenges associated with high network costs, long transfer times, and security concerns. By using Snowball, customers can significantly reduce the time and expense involved in moving large datasets by physically shipping the data on Snowball devices, which are designed to be secure and durable. The devices use encryption and other security measures to protect data during transit, making them a reliable choice for sensitive or regulated data.
 
+## Amazon MQ
+- Amazon MQ is a managed message broker service for Apache ActiveMQ that makes it easy to set up and operate message brokers in the cloud. It's ideal for application developers who are using open source message brokers and want a fully managed service that works seamlessly with their existing applications. It also simplifies migrating on-premises message brokers to the cloud, as you can use your existing code and messaging protocols like JMS and NMS.
+
+## Amazon SQS (Simple Queue Service)
+- Amazon SQS is a scalable message queuing service for independently designed processing of messages. It's a pull-based service.
+
+## Amazon SNS (Simple Notification Service)
+- Amazon SNS makes it easy to set up, operate, and send notifications from the cloud.
+
+## AWS Step Functions
+- AWS Step Functions is a serverless workflow service that lets you orchestrate distributed systems using visual workflows. Its a way to coordinate components of distributed applications and microservices.
+
 ---
 
 # AWS Organizations
