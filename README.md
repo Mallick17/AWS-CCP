@@ -206,6 +206,9 @@
 ## AWS Service Control Policies (SCPs)
 - AWS Service Control Policies (SCPs) are a type of policy that you can use to manage permissions in your AWS organization. SCPs enable you to define the maximum permissions for member accounts in the organization. Unlike Identity and Access Management (IAM) policies, which grant permissions to users, groups, and roles, SCPs act as guardrails that limit what actions members of an organization can and cannot perform, regardless of their IAM policies. SCPs are useful for ensuring compliance with data governance and security standards by centrally controlling access to AWS services and resources across multiple AWS accounts within an AWS Organization. They provide a way to enforce policy compliance at the organization, organizational unit (OU), or account level.
 
+## Consolidated Billing
+- Consolidated billing is a method used by AWS Organizations to combine billing across multiple accounts, offering a simple way to see the overall expenses and potentially benefit from volume discounts.
+
 ---
 
 # AWS Security Hub
