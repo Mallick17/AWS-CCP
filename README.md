@@ -2,13 +2,28 @@
 ## AWS Knowledge Center
 - The AWS Knowledge Center is a valuable resource that offers answers to many of the questions about how to operate and troubleshoot various AWS services. It compiles insights and best practices from AWS support engineers, based on the common issues and solutions they encounter. This makes it an excellent tool for developers seeking to quickly resolve operational challenges or understand best practices for using AWS services. The Knowledge Center helps teams avoid common pitfalls and use AWS capabilities more effectively, ensuring they can maintain secure, high-performing, and reliable applications while optimizing cost.
 
-## AWS Well-Architected Tool
-- AWS Well-Architected Tool helps to build secure, high-performing, resilient, and efficient infrastructure for applications. Based on the AWS Well-Architected Framework, this provides a consistent approach for evaluating architectures and implementing designs that will scale over time. It offers guidance across five pillars: operational excellence, security, reliability, performance efficiency, cost optimization, and sustainability. By using the AWS Well-Architected Tool, developers can assess their workloads against best practices and receive recommendations for improvements, making it an indispensable resource for ensuring well-architected solutions on AWS.
-
 ## AWS Acceptable Use Policy
 - _**Security, Compliance, Data Protection, and Intellectual Property**_
 - The AWS Acceptable Use Policy (AUP) outlines the key areas that users must comply with when using AWS services. These areas include security, where AWS stipulates that users cannot carry out any actions that can compromise the security of AWS services or other users. Compliance refers to adhering to all applicable laws and regulations while using AWS services. Data protection means ensuring the privacy and security of personal data stored or processed on AWS. Intellectual property involves respecting the rights of others and not using AWS services to infringe upon these rights, such as copyrights, trademarks, or patents. In essence, the AUP guides AWS users on how to use the services responsibly and legally.
 
+---
+
+# AWS Well-Architected Framework
+## AWS Well-Architected Tool
+- AWS Well-Architected Tool helps to build secure, high-performing, resilient, and efficient infrastructure for applications. Based on the AWS Well-Architected Framework, this provides a consistent approach for evaluating architectures and implementing designs that will scale over time. It offers guidance across five pillars: operational excellence, security, reliability, performance efficiency, cost optimization, and sustainability. By using the AWS Well-Architected Tool, developers can assess their workloads against best practices and receive recommendations for improvements, making it an indispensable resource for ensuring well-architected solutions on AWS.
+
+### Operational Excellence
+- Operational Excellence emphasizes the importance of operating and monitoring systems to deliver business value and continually improve processes and procedures. It includes best practices for managing and automating changes, responding to events, and defining standards to manage daily operations. This pillar ensures that systems are running efficiently and are designed to evolve as needs change, helping businesses to operate at peak efficiency while maintaining the ability to innovate and improve continuously.
+
+### Security
+- The Security pillar focuses on protecting information and systems.
+
+### Performance Efficiency
+- The Performance Efficiency pillar concentrates on the efficient use of compute resources to meet requirements and maintaining that efficiency as demand changes. It is more about specifying the right type and size of resources rather than continuous improvement of operational procedures.
+  
+### Cost Optimization
+- The Cost Optimization pillar is concerned with the continual effort to avoid or eliminate unnecessary costs while building systems that are scalable to meet business needs. It focuses on identifying cost-cutting opportunities.
+ 
 ---
 
 ## "6 R's" Migration Strategy for Migrating Applications to AWS Cloud
