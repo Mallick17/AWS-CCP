@@ -83,6 +83,7 @@
 
 ### AWS VPN
 - AWS VPN enables encrypted connections from on-premises networks or mobile devices to AWS. Although it provides secure connectivity.
+- AWS VPN is used to establish a secure and private tunnel from your network or device to the AWS global network. 
 
 ### AWS PrivateLink
 - AWS PrivateLink enables private connectivity between VPCs, AWS services, and on-premises applications without using public IPs. However, it is more suited for service-to-service communication within the same or interlinked VPCs.
@@ -121,11 +122,12 @@
 - AWS Trusted Advisor provides real-time guidance to help you provision your resources following AWS best practices. It gives recommendations to help you improve your AWS environment in areas such as cost optimization, performance, security, fault tolerance, and service limits.
 
 ## AWS Outposts
-- AWS Outposts is a fully managed service that extends AWS infrastructure, services, APIs, and tools to virtually any on-premises facility, including data centers and co-location environments, creating a truly consistent hybrid experience. This solution is ideal for applications that require low latency access to on-premises systems, local data processing, or local data storage. By bringing native AWS services to on-premises locations, Outposts enables customers to operate in a hybrid environment seamlessly, using the same AWS management console, APIs, and control services they're familiar with in the cloud. This ensures a unified way to manage both cloud and on-premises resources, simplifying operations and reducing the time to market for applications that need to span both environments.
+- AWS Outposts brings native AWS services, infrastructure, and APIs to on-premises data centers, co-location spaces, or edge locations. It extends the AWS cloud capabilities to customers' own environments, allowing them to securely run and manage applications using familiar AWS tools and services. Outposts consist of pre-configured racks of compute and storage equipment that are installed and managed by AWS, providing a consistent hybrid cloud experience. Customers can use the same APIs, services, and operational practices as in the AWS cloud to build, deploy, and manage applications on Outposts. It enables organizations to seamlessly integrate on-premises infrastructure with the AWS ecosystem for hybrid cloud deployments.
+- With Outposts, you can use the same AWS APIs, tools, and security controls to run, manage, and secure your applications on-premises and in the cloud. Outposts can be used to support a variety of applications, including those that need to process and act on data locally in real-time, communicate with other on-premises systems, and meet data residency requirements.
 
 ## AWS Direct Connect
-- AWS Direct Connect provides a dedicated network connection from on-premises to AWS, enhancing bandwidth throughput and providing a more consistent network experience than internet-based connections, it is primarily intended for linking your existing networks with AWS. Although it facilitates the connection to AWS, it does not extend AWS services, APIs, or tools into on-premises environments.
-
+- AWS Direct Connect provides a dedicated network connection from on-premises to AWS(dedicated network connection between your network and one of the AWS Direct Connect locations), enhancing bandwidth throughput and providing a more consistent network experience than internet-based connections, it is primarily intended for linking your existing networks with AWS. Although it facilitates the connection to AWS, it does not extend AWS services, APIs, or tools into on-premises environments.
+  
 ## Amazon CodeGuru
 - Amazon CodeGuru is a developer tool that provides intelligent recommendations to improve code quality and identify the most expensive lines of code in your applications. CodeGuru can help optimize the performance and cost of software applications by improving code efficiency.
 
