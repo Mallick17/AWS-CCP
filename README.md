@@ -301,6 +301,16 @@
 ---
 
 # Cloud Concepts
+## Concept of Fault Tolerance
+- The ability of a system to detect and recover from faults
+  - Fault tolerance refers to the ability of a system to continue operating, even in the presence of one or more faults or failures. A fault-tolerant system is designed to detect faults and recover from them without significant interruption to the service. These systems typically include redundancies and mechanisms for automatic failover to ensure service continuity in the event of faults.
+- The ability of a system to operate without downtime
+  - A fault-tolerant system is designed to minimize downtime, this definition is not specific enough. Fault tolerance includes not only the ability to avoid downtime but also the ability to detect and recover from faults.
+- The ability of a system to adapt to changing workloads
+  - This statement describes scalability or elasticity, not fault tolerance. Scalability is the ability of a system to handle increased workloads by adding additional resources or optimizing the use of current ones.
+- The ability of a system to handle errors gracefully
+  - Handling errors gracefully is a part of building robust systems, this definition doesn't encompass the whole concept of fault tolerance. Fault tolerance involves not only managing errors but also detecting and recovering from faults while minimizing the impact on system operation.
+
 ## Total Cost of Ownership (TCO) analysis when considering a migration to AWS Cloud
 - The cost of training staff on AWS Cloud services
   - When calculating the TCO for a migration to AWS, it's important to consider the cost of training staff on AWS Cloud services. This ensures that the team can effectively manage and operate within the AWS ecosystem, using its full potential to achieve operational efficiency and cost savings. Training can lead to better resource management, improved security posture, and optimal application performance, all of which contribute to a more accurate TCO calculation.
