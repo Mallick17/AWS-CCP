@@ -126,8 +126,13 @@
 ## Amazon Chime
 - Amazon Chime is a communication service that transforms online meetings with a secure, easy-to-use application that you can trust.
 
-## AWS IAM Identity Center (AWS Single Sign-On)
+## AWS IAM
+### AWS IAM Identity Center (AWS Single Sign-On)
 - AWS IAM Identity Center (AWS SSO) simplifies the management of access to multiple AWS accounts and business applications by allowing users to sign in with a single set of credentials. This service enables administrators to easily manage user access at scale and improve security by eliminating the need for multiple passwords. It also supports automatic user provisioning, which further simplifies the process and ensures users have access only to the resources they need for their job functions.
+
+### AWS IAM Access Analyzer
+- AWS IAM Access Analyzer is a feature designed to help you identify the resources in your AWS account such as Amazon S3 buckets or IAM roles that are shared with an external entity. It does this by analyzing resource-based policies to show you which policies allow access to your resources from outside your AWS account. This feature is incredibly useful for maintaining the security and privacy of your data, ensuring that only the intended parties have access. When you enable Access Analyzer, it automatically starts analyzing policies and generating findings. These findings provide detailed information about the resources accessible from outside your AWS account, the type of access allowed, and the external entity that has access. This allows you to review and take action to restrict access if necessary, helping you adhere to the principle of least privilege and enhance your security posture.
+
 
 ## AWS DataSync
 - AWS DataSync is an online data movement and discovery service that simplifies and accelerates data migrations to AWS as well as moving data to and from on-premises storage, edge locations, other cloud providers, and AWS Storage services.
@@ -227,6 +232,9 @@
 ## AWS Step Functions
 - AWS Step Functions is a serverless workflow service that lets you orchestrate distributed systems using visual workflows. Its a way to coordinate components of distributed applications and microservices.
 
+## AWS Managed Services
+- AWS Managed Services provides ongoing management of your AWS infrastructure so you can focus on your applications. It helps automate common activities such as change requests, monitoring, patch management, security, and backup services, and provides full-lifecycle services to provision, run, and support your infrastructure.
+
 ## AWS Health Dashboard
 ### AWS Service Health Dashboard
 - AWS Service Health Dashboard provides real-time information on the status of AWS services across different regions in the AWS Global Infrastructure. It offers a transparent view of any current operational issues with AWS services that might impact customer workloads. This allows customers to monitor the overall performance of the services they are using and identify any disruptions that may be affecting their applications.
@@ -253,6 +261,7 @@
 ### AWS Systems Manager(SSM)
 - AWS Systems Manage gives you visibility and control of your infrastructure on AWS. This service allows you to group your resources according to applications, view operational data for monitoring and troubleshooting, and take action on your groups of resources. AWS Systems Manager simplifies resource and application management, shortens the time to detect and resolve operational problems, and makes it easy to operate and manage your infrastructure securely at scale. It provides a unified user interface so you can view operational data from multiple AWS services and allows you to automate operational tasks across your AWS resources.
 - AWS Systems Manager allows you to view and control your AWS resources. It helps to identify and resolve operational issues quickly across multiple AWS resources, thereby simplifying operational tasks and reducing the time it takes to resolve them. With AWS Systems Manager, you can group resources, like Amazon EC2 instances or Amazon S3 buckets, by application, view operational data for monitoring and troubleshooting, and take action on your groups of resources. AWS Systems Manager helps you to maintain security and compliance by scanning your instances against your patch, configuration, and custom policies.
+- AWS Systems Manager offers you visibility and control over your AWS infrastructure. It enables you to automate operational tasks, such as patching software, managing servers, and orchestrating various AWS services. While it's an invaluable tool for managing and optimizing your AWS environment.
 
 ## AWS Firewall Manager
 - AWS Firewall Manager is a security management service that centrally configures and manages firewall rules across multiple AWS accounts and resources. It automates the deployment and enforcement of security policies, ensuring consistent protection for applications deployed in AWS. Firewall Manager supports AWS WAF, AWS Shield Advanced, and VPC security groups, allowing administrators to create and apply rules based on security best practices. It simplifies compliance by providing a unified view of security policies and their enforcement status, thereby enhancing the overall security posture of AWS environments.
