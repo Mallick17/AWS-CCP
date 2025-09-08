@@ -201,6 +201,12 @@
 ## AWS Database Migration Service (DMS)
 - AWS Database Migration Service (DMS) is designed to facilitate the secure, efficient, and relatively easy migration of databases to AWS, including relational databases, data warehouses, NoSQL databases, and other types of data stores. The service supports the migration of data to and from the most widely used commercial and open-source databases. It allows for continuous data replication with high availability and minimal downtime, which is crucial for maintaining the functionality of the source database during the migration process. DMS is a highly recommended solution for companies looking to migrate their Oracle database to AWS without negatively impacting the source database's operations. This service minimizes the downtime to applications that rely on the database and ensures that data is transferred securely and efficiently, enabling a smooth transition to AWS.
 
+## Amazon S3
+- Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. It's excellent for cloud-native applications, but it doesn't provide a hybrid cloud storage solution with on-premises access.
+
+## Amazon EFS
+- Amazon Elastic File System (Amazon EFS) provides a simple, scalable, and fully managed elastic NFS file system for use with AWS Cloud services and on-premises resources, but it's not designed for hybrid scenarios like AWS Storage Gateway.
+
 ## Amazon RDS
 - Amazon RDS (Relational Database Service) is a cloud-based relational database service that simplifies database setup, operation, and scaling. It supports popular database engines like MySQL, PostgreSQL, SQL Server, and offers features like automated backups, monitoring, and high availability.
 - Amazon RDS (Relational Database Service) provides a relational database structure, which is more suited to structured data and traditional SQL-based applications. Amazon RDS wouldn't be the optimal choice because it does not offer the same low-latency performance that an in-memory database like Amazon MemoryDB does.
