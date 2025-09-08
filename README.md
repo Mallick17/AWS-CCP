@@ -177,9 +177,11 @@
 - Amazon Redshift Spectrum is a feature in Amazon Redshift that allows users to run queries against exabytes of data in Amazon S3. It's more about data warehousing and analytics.
 
 ## Amazon Athena
+- Amazon Athena is a serverless interactive query service that makes it easy to analyze data stored in Amazon S3 using standard SQL. It is the most cost-effective choice for companies like the one in question, which has a significant amount of data stored in S3 and needs to run occasional queries. With Athena, users are charged based on the amount of data scanned by the queries they run, making it highly cost-effective for workloads where queries are not constant or continuous. This pricing model allows for flexibility and cost savings, as there's no need for data loading or infrastructure management. Athena's serverless nature also means that there's no infrastructure to manage or set up, reducing operational costs and complexity. For occasional analysis tasks, Athena provides the simplicity and cost-efficiency needed, allowing the company to query their data without the overhead of managing a complex data warehouse or database system.
 - Amazon Athena is an interactive query service that makes it easy to analyze data in Amazon S3 using standard SQL. It doesn't provide dashboard capabilities. For visualizations and dashboarding, data from Athena would typically be imported into a tool like QuickSight.
 
 ## AWS Glue
+- AWS Glue is a fully managed extract, transform, and load (ETL) service that makes it easy for customers to prepare and load their data for analytics. AWS Glue's primary use case is to facilitate the transformation and preparation of data for analysis.
 - AWS Glue is a fully managed extract, transform, and load (ETL) service that makes it easy for users to prepare and load their data for analytics. Glue can help organize, cleanse, validate and format data. It doesn't provide the end-user dashboarding and visualization capabilities that QuickSight does.
 
 ## AWS CloudTrail
