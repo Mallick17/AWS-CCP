@@ -277,6 +277,12 @@
 ## AWS Control Tower
 - AWS Control Tower automates the setup of a baseline environment or landing zone, that is secure, well-architected, and multi-account based. It's designed to simplify the management of multiple AWS accounts and enforce governance and compliance standards across your AWS environment. Although AWS Control Tower helps enforce policies and provides guardrails, it doesn't analyze individual resource policies to determine if an Amazon S3 bucket or an IAM role allows access from an external entity. Its focus is on governance at a higher level, not on detailed policy analysis.
 
+## Amazon Transcribe
+- Amazon Transcribe is an automatic speech recognition (ASR) service that makes it easy for developers to add speech-to-text capability to their applications. It uses advanced machine learning technologies that can accurately transcribe audio files and live audio streams into text. It supports various audio formats and works with low-quality audio files, making it versatile for different use cases. This service offers features such as speaker identification, custom vocabulary, and real-time transcription, enhancing the accessibility and analysis of audio data. Amazon Transcribe is used across a wide range of applications, including customer service, transcription of meetings and conferences, and creating searchable archives of audio content. It supports multiple languages, making it a powerful tool for global businesses and developers looking to incorporate speech recognition into their solutions.
+
+## Amazon Polly
+- Amazon Polly turns text into lifelike speech that allows you to create applications that talk and build entirely new categories of speech-enabled products.
+
 ---
 
 # AWS Snow Family
