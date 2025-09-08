@@ -294,6 +294,7 @@
 
 ## AWS Snowcone
 - AWS Snowcone is the smallest member of the AWS Snow Family of edge computing, storage, and data transfer devices. It is designed for use cases such as data migration, content distribution, data collection etc.
+- It is designed for use cases that require portability and it provides 8 TB of storage capacity via NFS protocol and SSD provides 14TB storage.
 > However, it can only store up to 8 TB of data.
 
 ## AWS Snowmobile
