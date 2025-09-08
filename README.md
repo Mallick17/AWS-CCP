@@ -343,10 +343,14 @@
   - Handling errors gracefully is a part of building robust systems, this definition doesn't encompass the whole concept of fault tolerance. Fault tolerance involves not only managing errors but also detecting and recovering from faults while minimizing the impact on system operation.
 
 ## Total Cost of Ownership (TCO) analysis when considering a migration to AWS Cloud
+> The AWS Total Cost of Ownership (TCO) Calculator is designed to assist users in quantifying the savings when migrating their IT infrastructure to AWS. It considers various factors, including server, storage, networking hardware, and data center operations costs, to provide an estimate of the cost of running applications on AWS versus on-premises or in a colocation environment.
 - The cost of training staff on AWS Cloud services
   - When calculating the TCO for a migration to AWS, it's important to consider the cost of training staff on AWS Cloud services. This ensures that the team can effectively manage and operate within the AWS ecosystem, using its full potential to achieve operational efficiency and cost savings. Training can lead to better resource management, improved security posture, and optimal application performance, all of which contribute to a more accurate TCO calculation.
 - Estimated operational costs for maintaining on-premises servers
   - Operational costs for maintaining on-premises servers should be a core component of TCO analysis. These costs include not only direct expenses such as power, cooling, and maintenance staff but also indirect costs like system administration, network management, and software licenses. When considering AWS Cloud, it's crucial to compare these ongoing costs to the variable, consumption-based pricing of AWS services to determine potential savings.
+
+## AWS Pricing Calculator
+- AWS Pricing Calculator is more granular and focused on individual AWS services. It allows you to estimate the cost of using specific AWS services based on your expected usage, helping you make cost-effective choices when planning your AWS architecture.
 
 ## Cloud Design Principle of Loose Coupling (AWS Well-Architected Framework)
 - _Components interacting through middleware interfaces encapsulate functionality, enabling the components to evolve independently without causing disruptions in the overall system. This approach adheres to the principle of loose coupling, which minimizes dependencies between components. Middleware provides a standard method for communication, enhancing system flexibility, scalability, and maintainability. By decoupling components, changes, updates, or replacements of individual parts can be done seamlessly, leading to a more resilient architecture. This design is particularly beneficial in cloud environments where scalability and rapid iteration are critical._
