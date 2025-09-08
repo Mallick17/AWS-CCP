@@ -113,6 +113,9 @@
 ### AWS PrivateLink
 - AWS PrivateLink enables private connectivity between VPCs, AWS services, and on-premises applications without using public IPs. However, it is more suited for service-to-service communication within the same or interlinked VPCs.
 
+### VPC Peering
+- VPC Peering allows you to create a direct network route between two Virtual Private Clouds (VPCs) across regions, enabling private communication without bandwidth bottlenecks or data traveling the public internet. This service is particularly suitable for inter-account communication, as it facilitates secure, low-latency, and high-bandwidth data transfer. VPC Peering connections are established between VPCs using private IP addresses, using the robust security features inherent to VPCs, such as security groups and network ACLs. This ensures that data remains within the AWS network, providing an additional layer of security.
+
 ---
 
 ## AWS Compute Optimizer
