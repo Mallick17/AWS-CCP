@@ -211,6 +211,8 @@
 
 ## Amazon EFS
 - Amazon Elastic File System (Amazon EFS) provides a simple, scalable, and fully managed elastic NFS file system for use with AWS Cloud services and on-premises resources, but it's not designed for hybrid scenarios like AWS Storage Gateway.
+- Amazon Elastic File System (EFS) is a scalable, elastic, cloud-native file storage service for Linux-based workloads. It seamlessly integrates with AWS cloud services and on-premise resources, providing a simple, serverless, set-and-forget elastic file system. Amazon EFS is designed to be highly available and durable, offering a file system interface and file system semantics. It allows multiple EC2 instances to access the data concurrently.
+- EFS Lifecycle Management is a feature within Amazon EFS that automates the moving of files not accessed according to the lifecycle policy from the standard storage class to the cost-effective EFS Infrequent Access (EFS IA) storage class. This feature helps in optimizing storage costs by automatically transitioning older, less frequently accessed files to a lower-cost storage tier, while still ensuring that these files are accessible without any application modifications. Lifecycle Management policies can be easily configured to suit different access patterns and retention requirements, making it an effective tool for saving storage costs without sacrificing data availability or performance.
 
 ## Amazon RDS
 - Amazon RDS (Relational Database Service) is a cloud-based relational database service that simplifies database setup, operation, and scaling. It supports popular database engines like MySQL, PostgreSQL, SQL Server, and offers features like automated backups, monitoring, and high availability.
