@@ -247,6 +247,9 @@
 ## AWS Resource Access Manager (RAM)
 - AWS Resource Access Manager (RAM) enables you to easily and securely share AWS resources with any AWS account or within your AWS Organization.
 
+## AWS Resource Groups
+- AWS Resource Groups helps you to group your AWS resources, which can then be managed and automated as a collection. This service is especially useful for environments such as development, testing, and production because it allows you to apply tags and organize resources according to their specific criteria. For example, you can group all resources that belong to a particular application, project, or environment, enabling easier management and automation of tasks like monitoring and cost allocation. The tagging system provided by AWS Resource Groups enhances clear categorization and simplified operational workflows across different environments.
+
 ## AWS Storage Gateway
 - AWS Storage Gateway is a hybrid cloud storage service that gives you on-premises access to virtually unlimited cloud storage. While it can be used for data migration, it's not designed for offline data transfer scenarios like Snowball. It is used for connecting on-premise software appliances with cloud-based storage.
 - AWS Storage Gateway is a hybrid cloud storage service that gives you on-premises access to virtually unlimited cloud storage. It seamlessly integrates on-premises IT environments with cloud storage for backup and restore, archiving, disaster recovery, cloud data processing, storage tiering, and migration. It connects an on-premises software appliance with AWS cloud-based storage for seamless integration between your on-premises IT environment and AWS storage infrastructure.
