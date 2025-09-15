@@ -405,3 +405,9 @@ Incorrect Options:
   - Microservices can actually increase management overhead. This is because each microservice can have its own deployment, logging, monitoring, and scaling requirements. Managing a large number of services requires more sophisticated orchestration and automation tools, like Kubernetes, which can add to the management complexity.
 
 </details>
+
+---
+
+Weak Points
+- Conc on Authorization and Authentication
+- Conc on Security OF the Cloud and Security IN the Cloud.
