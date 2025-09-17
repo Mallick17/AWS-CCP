@@ -367,6 +367,11 @@ F# AWS-Services
   
 ---
 
+###AWS Security Token Service (AWS STS)
+- AWS Security Token Service (AWS STS) allows you to request temporary, limited-privilege credentials to access AWS services. This is ideal for applications that interact with AWS services and require credentials that are automatically rotated and short-lived, minimizing the risk of long-term credential compromise. STS is particularly useful in scenarios where applications need to assume different roles for accessing resources across multiple AWS services, enabling adherence to the principle of least privilege. By using STS, the application can request credentials dynamically as needed, which not only enhances security but also simplifies credential management. This approach aligns with AWS best practices for security and identity management, making AWS STS the best choice for applications that require secure, temporary access to AWS APIs without embedding long-term access keys within the application.
+
+
+
 # Cloud Concepts
 ## Concept of Fault Tolerance
 - The ability of a system to detect and recover from faults
