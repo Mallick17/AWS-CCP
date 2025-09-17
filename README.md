@@ -355,6 +355,12 @@ F# AWS-Services
 - AWS Shield Standard provides protection against most common network and transport layer DDoS attacks.
 - AWS Shield Advanced provides advanced DDoS protection and additional features such as detailed attack diagnostics and the option for cost protection.
 
+### AWS Shield Advanced --> AWS Shield Advanced for AWS organizations with multiple AWS accounts
+- AWS Shield Advanced pricing is based on the number of resources (such as Amazon CloudFront distributions, Elastic Load Balancing load balancers, Amazon Route 53 hosted zones, and Elastic IP addresses) protected across all accounts. This service provides cost-effective DDoS protection for applications running on AWS, and is particularly beneficial for organizations with a high risk of DDoS attacks, as it offers financial protection in the form of DDoS cost protection for scaling charges incurred during an attack.
+- The number of resources protected is a more accurate measure of the level of protection needed than the total number of AWS accounts or the average usage of each account. For example, an organization may have many AWS accounts with low resource usage, but if they have critical resources that require high levels of protection, then they will need to pay more for AWS Shield Advanced.
+
+
+
 ### AWS Config
 - AWS Config provides a detailed view of the resources associated with your AWS account, including how they are configured, how they are related to one another, and how the configurations and their relationships have changed over time.
 - AWS Config enables you to assess, audit, and evaluate the configurations of your AWS resources. It can be used to monitor and record compliance.
