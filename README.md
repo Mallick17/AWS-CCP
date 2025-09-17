@@ -362,7 +362,11 @@ F# AWS-Services
 ### AWS Config
 - AWS Config provides a detailed view of the resources associated with your AWS account, including how they are configured, how they are related to one another, and how the configurations and their relationships have changed over time.
 - AWS Config enables you to assess, audit, and evaluate the configurations of your AWS resources. It can be used to monitor and record compliance.
-  
+
+### AWS GuardDuty
+- Amazon GuardDuty is a threat detection service that continuously monitors and analyzes data from various sources within AWS environments, such as data stored in S3, AWS CloudTrail logs, VPC Flow Logs, and DNS logs, to detect potential malicious activity and unauthorized behavior.
+- GuardDuty uses machine learning algorithms and threat intelligence to analyze the collected data and identify common attack patterns, such as unauthorized access, privilege escalation, malware infections, and data exfiltration. It also provides insights into unusual API calls, unusual network traffic, and compromised instances.
+
 ---
 
 ### AWS Security Token Service (AWS STS)
