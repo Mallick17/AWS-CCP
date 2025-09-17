@@ -397,6 +397,7 @@ F# AWS-Services
   - Operational costs for maintaining on-premises servers should be a core component of TCO analysis. These costs include not only direct expenses such as power, cooling, and maintenance staff but also indirect costs like system administration, network management, and software licenses. When considering AWS Cloud, it's crucial to compare these ongoing costs to the variable, consumption-based pricing of AWS services to determine potential savings.
 
 ## AWS Pricing Calculator
+- The AWS Pricing Calculator helps customers to estimate the cost of using AWS services. It provides a user-friendly interface that allows individuals to model and configure AWS services according to their specific requirements, including options for regions, services, and usage estimates. The calculator supports a wide range of AWS services, enabling users to project costs for computing, storage, database, and many other services. This service is particularly useful for understanding the financial implications of deploying, maintaining, and scaling applications on AWS, allowing for more informed decision-making.
 - AWS Pricing Calculator is more granular and focused on individual AWS services. It allows you to estimate the cost of using specific AWS services based on your expected usage, helping you make cost-effective choices when planning your AWS architecture.
 
 ## Cloud Design Principle of Loose Coupling (AWS Well-Architected Framework)
