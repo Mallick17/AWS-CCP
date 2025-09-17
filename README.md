@@ -96,7 +96,11 @@
 
 ### Developer Support Plan
 - The Developer Support plan is slightly more advanced than the Basic plan, offering business day access to support for technical issues but only guarantees a response time of 12-24 hours based on severity. This plan is geared toward non-mission critical workloads and lacks immediacy and comprehensiveness.
-
+- Service health checks
+  -  Service health checks are part of the Developer Support plan. These checks allow users to monitor the health of AWS services that could affect their AWS resources. They provide visibility into the ongoing status of the AWS services and are an integral part of maintaining application health and performance.
+- Client-side diagnostic tools
+  - The Developer Support plan provides access to AWS Trusted Advisor and AWS Personal Health Dashboard. Trusted Advisor provides real-time guidance to help you provision your resources following AWS best practices. The Personal Health Dashboard provides alerts and remediation guidance when AWS is experiencing events that may impact you.
+  
 ### Enterprise Support Plan
 - The Enterprise Support plan provides the highest level of support, including access to a Technical Account Manager, concierge support, and faster response times across all issues. While it does provide technical support within an hour, the cost associated with this plan is significantly higher and may not be justified for many businesses, making it less cost-effective compared to the Business plan.
 
