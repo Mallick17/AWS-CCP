@@ -359,18 +359,17 @@ F# AWS-Services
 - AWS Shield Advanced pricing is based on the number of resources (such as Amazon CloudFront distributions, Elastic Load Balancing load balancers, Amazon Route 53 hosted zones, and Elastic IP addresses) protected across all accounts. This service provides cost-effective DDoS protection for applications running on AWS, and is particularly beneficial for organizations with a high risk of DDoS attacks, as it offers financial protection in the form of DDoS cost protection for scaling charges incurred during an attack.
 - The number of resources protected is a more accurate measure of the level of protection needed than the total number of AWS accounts or the average usage of each account. For example, an organization may have many AWS accounts with low resource usage, but if they have critical resources that require high levels of protection, then they will need to pay more for AWS Shield Advanced.
 
-
-
 ### AWS Config
 - AWS Config provides a detailed view of the resources associated with your AWS account, including how they are configured, how they are related to one another, and how the configurations and their relationships have changed over time.
 - AWS Config enables you to assess, audit, and evaluate the configurations of your AWS resources. It can be used to monitor and record compliance.
   
 ---
 
-###AWS Security Token Service (AWS STS)
+### AWS Security Token Service (AWS STS)
 - AWS Security Token Service (AWS STS) allows you to request temporary, limited-privilege credentials to access AWS services. This is ideal for applications that interact with AWS services and require credentials that are automatically rotated and short-lived, minimizing the risk of long-term credential compromise. STS is particularly useful in scenarios where applications need to assume different roles for accessing resources across multiple AWS services, enabling adherence to the principle of least privilege. By using STS, the application can request credentials dynamically as needed, which not only enhances security but also simplifies credential management. This approach aligns with AWS best practices for security and identity management, making AWS STS the best choice for applications that require secure, temporary access to AWS APIs without embedding long-term access keys within the application.
 
-
+### AWS Cognito
+- Amazon Cognito provides authentication, authorization, and user management for web and mobile applications but is primarily focused on managing user identities and federating user pools for applications. While it can integrate with IAM roles for accessing AWS services, its core purpose is not to provide temporary AWS service credentials. Cognito is more suited for controlling application user access and identity management rather than offering a solution for applications themselves to access AWS services with temporary credentials.
 
 # Cloud Concepts
 ## Concept of Fault Tolerance
