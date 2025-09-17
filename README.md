@@ -411,3 +411,4 @@ Incorrect Options:
 Weak Points
 - Conc on Authorization and Authentication
 - Conc on Security OF the Cloud and Security IN the Cloud.
+- Agility, Elasticity, Flexibility
