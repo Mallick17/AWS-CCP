@@ -340,7 +340,10 @@ F# AWS-Services
 - AWS Systems Manager offers you visibility and control over your AWS infrastructure. It enables you to automate operational tasks, such as patching software, managing servers, and orchestrating various AWS services. While it's an invaluable tool for managing and optimizing your AWS environment.
 
 ## AWS Firewall Manager
-- AWS Firewall Manager is a security management service that centrally configures and manages firewall rules across multiple AWS accounts and resources. It automates the deployment and enforcement of security policies, ensuring consistent protection for applications deployed in AWS. Firewall Manager supports AWS WAF, AWS Shield Advanced, and VPC security groups, allowing administrators to create and apply rules based on security best practices. It simplifies compliance by providing a unified view of security policies and their enforcement status, thereby enhancing the overall security posture of AWS environments.
+- AWS Firewall Manager is a security management service that centrally configures and manages firewall rules across multiple AWS accounts and resources. It automates the deployment and enforcement of security policies, ensuring consistent protection for applications deployed in AWS.
+- Firewall Manager supports AWS WAF, AWS Shield Advanced, and VPC security groups, allowing administrators to create and apply rules based on security best practices. It simplifies compliance by providing a unified view of security policies and their enforcement status, thereby enhancing the overall security posture of AWS environments.
+   - AWS WAF
+     - AWS WAF is a web application firewall service that protects web applications or APIs against common web exploits that may affect availability, compromise security, or consume excessive resources.
 
 ### Amazon Inspector --> Continually scans AWS workloads for software vulnerabilities and unintended network exposure.
 > Amazon Inspector automatically assesses applications for exposure, vulnerabilities, and deviations from best practices.
