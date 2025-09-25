@@ -119,6 +119,11 @@ F# AWS-Services
 - AWS Transit Gateway is a network transit hub that connects Amazon VPCs and on-premises networks through a central hub. This simplifies network architectures, reducing the complexity and management overhead associated with connecting multiple VPCs and networks. By providing a scalable and high-performance solution, AWS Transit Gateway enables efficient routing and connectivity, supporting thousands of VPCs and VPN connections. It integrates seamlessly with AWS services, enhances security, and supports features like multicast and inter-region peering, making it a versatile choice for large-scale, dynamic cloud environments.
 
 ### AWS VPN
+- AWS VPN (Virtual Private Network) allows secure communication between remote networks and AWS resources. It establishes encrypted connections via the internet, ensuring data privacy and integrity. By leveraging industry-standard protocols like IPSec, AWS VPN enables seamless integration with existing on-premises infrastructure and extends secure access to AWS cloud services. This scalable solution offers flexible configurations, supporting various use cases such as remote access, site-to-site connectivity, and hybrid cloud deployments, empowering organizations to build robust and resilient network architectures.
+- AWS offers two types of VPN: AWS Site-to-Site VPN and AWS Client VPN.
+  - The Site-to-Site VPN can securely connect entire networks to AWS,
+  - The Client VPN is designed for connecting individual clients.
+  > This makes AWS VPN an ideal choice that needs to securely connect multiple on-premises locations with the AWS environment.
 - AWS VPN enables encrypted connections from on-premises networks or mobile devices to AWS. Although it provides secure connectivity.
 - AWS VPN is used to establish a secure and private tunnel from your network or device to the AWS global network. 
 
