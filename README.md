@@ -1,4 +1,4 @@
-F# AWS-Services
+# AWS-Services
 ## AWS Knowledge Center
 - The AWS Knowledge Center is a valuable resource that offers answers to many of the questions about how to operate and troubleshoot various AWS services. It compiles insights and best practices from AWS support engineers, based on the common issues and solutions they encounter. This makes it an excellent tool for developers seeking to quickly resolve operational challenges or understand best practices for using AWS services. The Knowledge Center helps teams avoid common pitfalls and use AWS capabilities more effectively, ensuring they can maintain secure, high-performing, and reliable applications while optimizing cost.
 
@@ -46,6 +46,8 @@ F# AWS-Services
 ---
 
 # Billing and Cost Management
+- AWS Billing and Cost Management is a comprehensive service that enables users to monitor, manage, and optimize their AWS costs and usage. It provides a centralized platform for tracking and analyzing AWS billing information, including detailed cost breakdowns, usage reports, and cost allocation tags. Users can set up budgets, alerts, and cost controls to prevent unexpected spending and optimize resource allocation. The service also offers cost visualization tools, such as AWS Cost Explorer and AWS Budgets, to help users gain insights into their spending patterns and forecast future costs. AWS Billing and Cost Management empowers organizations to effectively manage their AWS expenses and ensure cost efficiency.
+  
 ### Cost Anamoly Detection
 - AWS Cost Anomaly Detection service is designed to monitor for unusual spending patterns within an AWS account. It uses machine learning to detect anomalies in your AWS spending, and alerts you when unexpected changes in cost and usage occur, which could indicate fraudulent activity or mismanagement. This service is ideal for those looking to keep track of their AWS billing and be alerted to potential issues promptly.
 
@@ -291,6 +293,10 @@ F# AWS-Services
 
 ## AWS Managed Services
 - AWS Managed Services provides ongoing management of your AWS infrastructure so you can focus on your applications. It helps automate common activities such as change requests, monitoring, patch management, security, and backup services, and provides full-lifecycle services to provision, run, and support your infrastructure.
+- Enhanced Security aligned with your controls
+  - AWS Managed Services (AMS) builds and maintains a growing repository of compliance, operational, and security guardrails that help keep you aligned with your controls. AMS reduces the burden of meeting compliance program requirements (HIPAA, HITRUST, GDPR, SOC, NIST, ISO, PCI, FedRAMP) through automated detection and remediation automation.
+- Reduced operational costs for maintaining
+  - AWS Managed Services (AMS) helps with financial optimization across your AWS estate, and any savings identified reduce your AMS fee without impacting operational outcomes. The customers have enjoyed up to 30% in operational savings and up to 25% in AWS infrastructure savings. Pay for what you use and take back operational control when you are ready.
 
 ## AWS Health Dashboard
 ### AWS Service Health Dashboard
