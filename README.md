@@ -221,6 +221,8 @@ F# AWS-Services
 
 ## Amazon S3
 - Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. It's excellent for cloud-native applications, but it doesn't provide a hybrid cloud storage solution with on-premises access.
+- Amazon S3 Multi-Region Access Points
+  - Amazon S3 Multi-Region Access Points make it simpler to build applications that require global access to data by streamlining the endpoint naming convention and by automatically routing requests to data in the most optimal AWS region. Instead of managing requests across various S3 buckets and regions, S3 Multi-Region Access Points provide a singular access point to view and access data globally, reducing the application's complexity. This is particularly beneficial for the streaming company, as users from different regions can efficiently access videos with low latency without the need for the application to handle multiple S3 regional endpoints.
 
 ## Amazon EFS
 - Amazon Elastic File System (Amazon EFS) provides a simple, scalable, and fully managed elastic NFS file system for use with AWS Cloud services and on-premises resources, but it's not designed for hybrid scenarios like AWS Storage Gateway.
