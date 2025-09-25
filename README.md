@@ -51,6 +51,9 @@ F# AWS-Services
 
 ### AWS Cost & Usage Reports (CUR)
 - AWS Cost & Usage Reports (CUR) is the most comprehensive tool for examining your AWS costs in detail. These reports deliver the most granular level of data about your AWS costs, and they enable you to drill down into your data to gain insights about your AWS usage and spending. The reports contain line item details of your costs, resource usage, and Reserved Instance usage across all AWS services. You can customize the CUR to aggregate data by the hour or day, by product or product resource, or by tags that you define yourself. AWS CUR provides the most extensive data to understand, analyze, and optimize your AWS costs.
+- Cost Allocation Tags
+  - Cost Allocation Tags help you organize your AWS resources and can assist with managing costs. It is a key-value pair that you can attach to your AWS resources. Once activated, AWS generates a cost allocation report with usage and costs aggregated by your tags, helping you to track and categorize your AWS costs in a detailed manner.
+  - By tagging resources with identifiers such as project name, department, or environment (e.g., development, testing, production), users can organize their AWS usage and costs across different dimensions. This facilitates detailed cost analysis, budgeting, and reporting, helping organizations to understand where and how they are incurring costs and to optimize their AWS spending. AWS provides two types of cost allocation tags: AWS-generated "System Tags" and user-defined "User Tags," both of which can be used for detailed cost tracking and reporting purposes.
 
 ### AWS Budgets
 - AWS Budgets allows you to set custom cost and usage budgets to manage your AWS costs. When your costs or usage exceed your budget amount, AWS sends you alerts.
@@ -295,6 +298,7 @@ F# AWS-Services
 - Amazon CloudWatch is a monitoring service for AWS resources and the applications you run on AWS. It collects and tracks metrics, collects and monitors log files, and responds to system-wide performance changes.
 
 ## AWS Control Tower
+- AWS Control Tower is the service that assists you in setting up and governing a secure, multi-account AWS environment. It provides the easiest way to set up and manage a new, secure, multi-account AWS environment based on best practices established through AWS’ experience working with thousands of enterprises as they move to the cloud. It automates the process of setting up a new baseline multi-account AWS environment that is secure, well-architected, and ready to use.
 - AWS Control Tower automates the setup of a baseline environment or landing zone, that is secure, well-architected, and multi-account based. It's designed to simplify the management of multiple AWS accounts and enforce governance and compliance standards across your AWS environment. Although AWS Control Tower helps enforce policies and provides guardrails, it doesn't analyze individual resource policies to determine if an Amazon S3 bucket or an IAM role allows access from an external entity. Its focus is on governance at a higher level, not on detailed policy analysis.
 
 ## Amazon Transcribe
@@ -408,6 +412,9 @@ F# AWS-Services
 ## Cloud Design Principle of Loose Coupling (AWS Well-Architected Framework)
 - _Components interacting through middleware interfaces encapsulate functionality, enabling the components to evolve independently without causing disruptions in the overall system. This approach adheres to the principle of loose coupling, which minimizes dependencies between components. Middleware provides a standard method for communication, enhancing system flexibility, scalability, and maintainability. By decoupling components, changes, updates, or replacements of individual parts can be done seamlessly, leading to a more resilient architecture. This design is particularly beneficial in cloud environments where scalability and rapid iteration are critical._
 
+## Software Licensing Costs in the cloud
+- Costs depend on the software and deployment model.
+  - The cost of software licensing in the cloud can vary depending on the software being used and the deployment model. Some cloud providers offer pay-as-you-go models, while others require upfront or subscription fees. Some software may be licensed differently in the cloud than on-premises. It's important to consider these factors when evaluating the impact of software licensing costs when moving to the cloud.
 
 ## Security Best Practices
 - Use AWS Organizations Service Control Policies (SCPs) to enforce mandatory access key rotation every 90 days.
