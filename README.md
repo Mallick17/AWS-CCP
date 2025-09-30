@@ -144,6 +144,9 @@
 ## AWS Lambda
 - AWS Lambda pricing is based on the number of requests (function invocations) and the duration of execution. The request cost is based on the total number of requests across all your functions. The duration is calculated from the time your code begins executing until it returns or otherwise terminates, rounded up to the nearest 100ms. The price depends on the amount of memory you allocate to your function. You are charged for the total time that you consume, in increments of 1 ms.
 
+## Amazon EC2 Fleet
+- Amazon EC2 Fleet is a feature that simplifies the provisioning of Amazon EC2 capacity across different Amazon EC2 instance types, Availability Zones, and purchase models (On-Demand, Reserved, and Spot Instances) in a single API call. This service is designed to maintain the high availability of applications in the face of unpredictable demand by deploying instances in multiple Availability Zones and managing them as a single logical unit. This way, EC2 Fleet allows users to optimize their cost and performance, while ensuring capacity is balanced across the specified Availability Zones.
+
 ## EC2 Amazon Machine Images (AMI)
 - An Amazon Machine Images (AMI) is a template used to create virtual machines (EC2 instances) in Amazon Web Services (AWS). It encapsulates the operating system, application server, and applications. AMIs enable easy replication of environments, simplifying deployment and scaling of infrastructure within AWS cloud computing services.
 - An Amazon Machine Images (AMI) can be used for disaster recovery solutions. By creating the AMI of your instance, you capture the entire server's state, including the operating system, the installed software, and all the instance configurations. When you need to recover, you can launch new instances from this AMI in any region, ensuring that your applications can be quickly restored to their previous state or moved to a new region in response to geographical-specific disruptions.
@@ -225,6 +228,9 @@
 
 ## AWS CodeDeploy
 - AWS CodeDeploy automates software deployments to a variety of compute services such as Amazon EC2, AWS Fargate, AWS Lambda, and your on-premises servers. It focuses on deploying updates and applications to any instance, helping you to avoid downtime during application deployment and handle the complexity of updating your applications.
+
+## AWS CodePipeline
+- AWS CodePipeline is a fully managed continuous delivery service that helps you automate your release pipelines for fast and reliable application and infrastructure updates. CodePipeline automates the build, test, and deploy stages of your release process every time there is a code change, based on the release model you define. This enables you to rapidly and reliably deliver features and updates, making it the suitable choice for continuous delivery that automates the release process when code is changed.
 
 ## AWS Database Migration Service (DMS)
 - AWS Database Migration Service (DMS) is designed to facilitate the secure, efficient, and relatively easy migration of databases to AWS, including relational databases, data warehouses, NoSQL databases, and other types of data stores. The service supports the migration of data to and from the most widely used commercial and open-source databases. It allows for continuous data replication with high availability and minimal downtime, which is crucial for maintaining the functionality of the source database during the migration process. DMS is a highly recommended solution for companies looking to migrate their Oracle database to AWS without negatively impacting the source database's operations. This service minimizes the downtime to applications that rely on the database and ensures that data is transferred securely and efficiently, enabling a smooth transition to AWS.
