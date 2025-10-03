@@ -16,6 +16,10 @@
 
 ### Operational Excellence
 - Operational Excellence emphasizes the importance of operating and monitoring systems to deliver business value and continually improve processes and procedures. It includes best practices for managing and automating changes, responding to events, and defining standards to manage daily operations. This pillar ensures that systems are running efficiently and are designed to evolve as needs change, helping businesses to operate at peak efficiency while maintaining the ability to innovate and improve continuously.
+- Implement automation to reduce manual tasks
+  - Implementing automation to reduce manual tasks is a principle of Operational Excellence pillar, focusing on improving efficiency and reducing human error.
+- Implement monitoring and logging to detect and diagnose problems
+  - Implement monitoring and logging to detect and diagnose problems is a principle of the Operational Excellence pillar, emphasizing the importance of effective monitoring, logging, and observability practices.
 
 ### Security
 - The Security pillar focuses on protecting information and systems.
@@ -28,6 +32,8 @@
 
 ### Performance Efficiency
 - Performance Efficiency in the AWS Well-Architected Framework is about using computing resources efficiently to meet system requirements and maintaining that efficiency as demand changes and technologies evolve. It is more about specifying the right type and size of resources rather than continuous improvement of operational procedures.
+- Use optimization techniques to improve system performance
+  - Using optimization techniques to improve system performance is relates more to the Performance Efficiency pillar, aiming to optimize resource utilization and enhance system performance.
   
 ### Cost Optimization
 - The Cost Optimization pillar is concerned with the continual effort to avoid or eliminate unnecessary costs while building systems that are scalable to meet business needs. It focuses on identifying cost-cutting opportunities.
