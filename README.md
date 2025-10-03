@@ -8,6 +8,10 @@
 - The AWS Acceptable Use Policy outlines guidelines for the acceptable use of AWS services, prohibiting illegal or harmful activities such as malicious hacking, spamming, and distributing malware. It emphasizes compliance with laws and regulations and respecting the rights of others. Users are responsible for their content and actions on AWS, with AWS reserving the right to suspend or terminate accounts violating the policy. Additionally, AWS may report illegal activities to authorities and cooperate with investigations.
 - AWS maintains a strict policy against the transmission of spam or other unsolicited emails via its services. AWS customers are required to follow all relevant email legislation, such as the CAN-SPAM Act in the United States. Moreover, AWS's policy includes provisions against the distribution of phishing emails or other types of deceptive messaging that attempt to collect sensitive information under false pretenses. This policy is in place to protect the integrity of AWS services and the safety of its customers.
 
+## AWS Cloud Economics
+- AWS Cloud eliminates the need to guess about future capacity needs
+  - One of the key aspects of AWS Cloud economics is the elimination of the need to guess about future capacity requirements. AWS provides scalable resources that can be adjusted according to the fluctuating needs of your business. This means you can start with the resources you need and then scale up or down based on demand, ensuring cost-efficiency and better resource management.
+    
 ---
 
 # AWS Well-Architected Framework
