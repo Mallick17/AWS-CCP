@@ -23,6 +23,8 @@
 
 ### Reliability
 - The Reliability pillar of the AWS Well-Architected Framework refers to the ability of a system to recover from infrastructure or service disruptions, dynamically acquire computing resources to meet demand, and mitigate disruptions such as misconfigurations or transient network issues. By deploying Amazon EC2 instances across multiple Availability Zones (AZs), you're creating a setup that's resilient to the failure of a single location, thereby improving the reliability of your system. This ensures that your applications remain available and users have consistent access, aligning directly with the goals of the Reliability pillar.
+- Implement automated backup and disaster recovery processes
+  - The reliability principle emphasizes the importance of implementing automated backup and recovery processes to minimize the impact of outages and ensure that your systems can recover quickly from disruptions. This includes regularly backing up your data and configurations and implementing automated processes for restoring your systems in a disaster. By doing this, you can improve reliability.
 
 ### Performance Efficiency
 - Performance Efficiency in the AWS Well-Architected Framework is about using computing resources efficiently to meet system requirements and maintaining that efficiency as demand changes and technologies evolve. It is more about specifying the right type and size of resources rather than continuous improvement of operational procedures.
