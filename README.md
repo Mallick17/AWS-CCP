@@ -138,6 +138,10 @@
 
 ---
 
+## AWS Cloud9
+- AWS Cloud9 is a cloud-based integrated development environment (IDE) that lets you write, run, and debug your code with just a browser. It includes a code editor, debugger, and terminal.
+- Cloud9 comes pre-packaged with essential tools for popular programming languages and the environment is customizable to individual coding styles. Since it's cloud-based, you can work on your projects from your office, home, or anywhere using an internet-connected machine.
+
 ## AWS Route 53
 - Failover Routing with Health Checks
   - Failover Routing with Health Checks in Amazon Route 53 is designed to meet the exact requirements of the described scenario. In a failover routing policy, Route 53 will route traffic to a primary target. If health checks detect an issue, such as specific HTTP status codes or detected patterns in the response, Route 53 will automatically route to a secondary target. This ensures high availability and fault tolerance, which seems to be the main concern for the organization in this scenario.
