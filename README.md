@@ -138,6 +138,16 @@
 
 ---
 
+## AWS Route 53
+- Failover Routing with Health Checks
+  - Failover Routing with Health Checks in Amazon Route 53 is designed to meet the exact requirements of the described scenario. In a failover routing policy, Route 53 will route traffic to a primary target. If health checks detect an issue, such as specific HTTP status codes or detected patterns in the response, Route 53 will automatically route to a secondary target. This ensures high availability and fault tolerance, which seems to be the main concern for the organization in this scenario.
+- Latency Routing with HTTP Status Checks
+  - Latency Routing can improve application performance by routing requests to the AWS resource that provides the lowest latency.
+- Weighted Routing with Patterns Checks
+  - Weighted Routing lets you split your traffic based on different weights assigned. Weighted Routing is useful for load balancing or testing new software versions.
+- Geolocation Routing with Patterns Checks
+  - Geolocation Routing lets you route traffic based on the geographic location of your users and to customize content based on a user's location.
+
 ## AWS Compute Optimizer
 - AWS Compute Optimizer analyzes the utilization of your AWS compute resources. Based on its findings, it generates recommendations for your resources to reduce cost and improve performance.
 - AWS Compute Optimizer uses machine learning to analyze historical utilization metrics and configuration data for your AWS resources, offering recommendations on how to optimize compute resources across Amazon EC2 instances, Amazon EBS volumes, and AWS Lambda functions. For EC2 instances, it provides recommendations on changing instance types or sizes to match your workload requirements more closely, potentially leading to cost savings and performance improvements. This tool is particularly useful for identifying rightsizing opportunities by suggesting configurations that could deliver the same or better performance at a lower cost.
