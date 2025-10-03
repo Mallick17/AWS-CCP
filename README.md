@@ -10,7 +10,8 @@
 
 ## AWS Cloud Economics
 - AWS Cloud eliminates the need to guess about future capacity needs
-  - One of the key aspects of AWS Cloud economics is the elimination of the need to guess about future capacity requirements. AWS provides scalable resources that can be adjusted according to the fluctuating needs of your business. This means you can start with the resources you need and then scale up or down based on demand, ensuring cost-efficiency and better resource management.
+  - One of the key aspects of AWS Cloud economics is the elimination of the need to guess about future capacity requirements. AWS provides scalable resources that can be adjusted according to the fluctuating needs of your business. This means you can start with the resources you need and then scale up or down based on demand, ensuring cost-efficiency and better resource management. 
+- While costs will increase as you consume more resources, AWS offers a pricing model where the unit costs can decrease as you scale out, which is a key aspect of cloud economics known as economies of scale.
     
 ---
 
