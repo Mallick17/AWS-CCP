@@ -107,6 +107,7 @@
   
 ### Business Support Plan
 - The Business Support plan is specifically designed for users who need rapid and comprehensive support. This plan ensures access to AWS technical support within one hour. It includes 24/7 phone, email, and chat support for critical issues, meaning businesses can receive timely assistance when they need it most. Additionally, this plan provides support for third-party applications, offers best practice recommendations, and proactively monitors AWS infrastructure. By opting for the Business Support plan, businesses can achieve a balance between cost and level of service, ensuring that their operational needs are met without the higher cost of the Enterprise plan.
+- For a startup, the Business support plan would be an appropriate choice. This plan offers 24/7 access to Cloud Support Engineers via email, chat, and phone. It also provides a response time of less than one hour for business-critical system downtime. Further, it includes Infrastructure Event Management, which can provide architectural and scaling guidance for planned events. This plan strikes a good balance between cost and comprehensive support, which is usually ideal for startups that may need more support than what's provided by lower-tier plans, without incurring the cost of the Enterprise plan.
 - Application architecture guidance
   
 ### Enterprise Support Plan
