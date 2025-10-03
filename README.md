@@ -311,6 +311,8 @@
 
 ### AWS Personal Health Dashboard 
 - AWS Personal Health Dashboard provides alerts and remediation guidance when AWS is experiencing events that may impact your account. It gives a personalized view of the performance and availability of the AWS services underlying your AWS resources. It does not provide a general status for all AWS services in the AWS Global Infrastructure.
+- The AWS Personal Health Dashboard provides recent events to help you manage active events and shows proactive notifications to plan for scheduled activities. It gives you a personalized view into the performance and availability of the AWS services you are using. The Personal Health Dashboard provides real-time information on service health events that may be impacting your resources. It notifies you of any ongoing issues, scheduled maintenance, or other events that might require your attention.
+- The Personal Health Dashboard allows you to view the status of AWS services in your account, access detailed information about events and their impacts, and receive notifications via email or the AWS Management Console. It helps you stay informed about the health of your AWS services, enabling you to plan and manage your resources effectively.
 
 ## AWS CloudWatch
 - Amazon CloudWatch is a monitoring service for AWS resources and the applications you run on AWS. It collects and tracks metrics, collects and monitors log files, and responds to system-wide performance changes.
