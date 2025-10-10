@@ -431,6 +431,9 @@
 - Amazon GuardDuty is a threat detection service that continuously monitors and analyzes data from various sources within AWS environments, such as data stored in S3, AWS CloudTrail logs, VPC Flow Logs, and DNS logs, to detect potential malicious activity and unauthorized behavior.
 - GuardDuty uses machine learning algorithms and threat intelligence to analyze the collected data and identify common attack patterns, such as unauthorized access, privilege escalation, malware infections, and data exfiltration. It also provides insights into unusual API calls, unusual network traffic, and compromised instances.
 
+### AWS X-Ray
+AWS X-Ray allows you to analyze and debug distributed applications, including microservices architectures. It provides end-to-end visibility into the application's behavior and performance by tracing requests as they flow across services. With X-Ray, you can identify bottlenecks, diagnose performance issues, and understand the dependencies and latency within your application. It helps you pinpoint the root cause of performance problems and optimize your application's performance. When troubleshooting performance and latency issues in a microservices application running in the AWS cloud, AWS X-Ray is the recommended service.
+
 ---
 
 ### AWS Security Token Service (AWS STS)
