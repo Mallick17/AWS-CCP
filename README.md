@@ -503,7 +503,25 @@ Incorrect Options:
 
 ---
 
+## Terms
+### Agility
+- Agility refers to the ability to rapidly and efficiently respond to changing business needs and market conditions. It involves the capability to quickly deploy, scale, and adapt applications and services. Agility allows organizations to be more responsive, iterate faster, and seize opportunities in a dynamic and competitive landscape. It is achieved through the use of cloud technologies, such as automation, DevOps practices, and scalable infrastructure, which enable faster development, deployment, and delivery of software solutions.
+- In our case, the application deployment time has been reduced from 1-2 weeks to 2-3 days as a demonstration of improved agility. The AWS cloud allows for quick provisioning of resources as needed, which dramatically reduces the time to deploy new applications. This allows organizations to innovate more quickly and react to changes faster. It significantly reduces the risks associated with over-provisioning or under-provisioning and allows companies to be more responsive to the needs of their business.
+
+### Elasticity
+- Elasticity refers to the capability to automatically and dynamically scale computing resources up or down based on demand. It allows organizations to quickly and efficiently adjust the allocation of resources, such as processing power, storage, and memory, to match fluctuating workloads. Elasticity ensures optimal resource utilization, cost-efficiency, and the ability to handle varying levels of demand without manual intervention, providing scalability and responsiveness to changing workload requirements. It's more about handling changes in workload based on demand.
+
+### Flexibility
+- Flexibility refers to the ability to easily adapt and adjust computing resources, services, and configurations to meet specific business requirements. It allows organizations to choose from a wide range of options for infrastructure, storage, networking, and application services, tailoring them to their needs. Flexibility enables scalability, customization, and the ability to optimize resources based on changing demands and evolving business objectives.
+
+### Resilience
+- Resilience refers to the ability of a system or infrastructure to withstand and recover from failures, disruptions, or unexpected events. It involves designing and implementing measures to ensure high availability, fault tolerance, and data redundancy. AWS offers features like data replication, automatic backups, and load balancing to enhance resilience. 
+
+
+---
 Weak Points
 - Conc on Authorization and Authentication
 - Conc on Security OF the Cloud and Security IN the Cloud.
 - Agility, Elasticity, Flexibility
+
+
