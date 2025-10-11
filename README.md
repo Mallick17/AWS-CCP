@@ -227,6 +227,9 @@
 ## Amazon QuickSight
 - Amazon QuickSight is a fast, cloud-powered business intelligence service that makes it easy to deliver insights to everyone in your organization. With QuickSight, you can create and publish interactive dashboards that include ML Insights. Dashboards can then be accessed from any device, and embedded into your applications, portals, and websites. Hence, for developing a business intelligence solution with a focus on dashboard reporting, Amazon QuickSight is the most suitable AWS service.
 
+## Amazon Kinesis
+- Amazon Kinesis is a platform for streaming data, offering powerful services to make it easy to load and analyze streaming data, and also providing the ability for you to build custom streaming data applications for specialized needs.
+
 # Amazon Redshift
 - Amazon Redshift is a fully managed, petabyte-scale data warehouse service in the cloud. It provides fast query performance by using columnar storage technology and parallelizing queries across multiple nodes. For a startup in the agricultural sector looking to perform advanced analytics and forecasting on large datasets, Redshift would be the most suitable as it is designed specifically for heavy-duty analytics on large datasets. It scales according to the needs of the company and provides the flexibility to analyze data with your preferred analysis tools.
 - Amazon Redshift is a fully managed data warehousing service. It offers fast and scalable analytics capabilities, allowing you to analyze large datasets using SQL queries. Redshift is optimized for data warehousing workloads and provides high-performance querying, advanced compression, and automatic scaling for efficient data analysis. It is designed for online analytic processing (OLAP) and business intelligence (BI) applications.
