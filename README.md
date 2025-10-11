@@ -197,6 +197,11 @@
 ### AWS IAM Access Analyzer
 - AWS IAM Access Analyzer is a feature designed to help you identify the resources in your AWS account such as Amazon S3 buckets or IAM roles that are shared with an external entity. It does this by analyzing resource-based policies to show you which policies allow access to your resources from outside your AWS account. This feature is incredibly useful for maintaining the security and privacy of your data, ensuring that only the intended parties have access. When you enable Access Analyzer, it automatically starts analyzing policies and generating findings. These findings provide detailed information about the resources accessible from outside your AWS account, the type of access allowed, and the external entity that has access. This allows you to review and take action to restrict access if necessary, helping you adhere to the principle of least privilege and enhance your security posture.
 
+## AWS Transfer Family
+- AWS Transfer Family is a fully managed service for transferring files over Secure File Transfer Protocol (SFTP), FTPS, and FTP.
+
+## AWS Application Discovery Service
+- AWS Application Discovery Service helps enterprises plan migration projects by automatically identifying applications and their dependencies running in on-premise data centers.
 
 ## AWS DataSync
 - AWS DataSync is an online data movement and discovery service that simplifies and accelerates data migrations to AWS as well as moving data to and from on-premises storage, edge locations, other cloud providers, and AWS Storage services.
