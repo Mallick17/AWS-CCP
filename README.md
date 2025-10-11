@@ -171,6 +171,7 @@
 
 ## AWS Lambda
 - AWS Lambda pricing is based on the number of requests (function invocations) and the duration of execution. The request cost is based on the total number of requests across all your functions. The duration is calculated from the time your code begins executing until it returns or otherwise terminates, rounded up to the nearest 100ms. The price depends on the amount of memory you allocate to your function. You are charged for the total time that you consume, in increments of 1 ms.
+- AWS Lambda is a serverless computing service that allows developers to run their code without provisioning or managing servers. With Lambda, users can upload their code as functions, and Lambda automatically handles the underlying infrastructure, scaling, and availability. It supports various programming languages and integrates seamlessly with other AWS services. Lambda functions can be triggered by events from various sources, enabling event-driven architectures and facilitating the development of highly scalable and responsive applications with reduced operational overhead. You can configure an S3 bucket to trigger a Lambda function whenever specific events occur, such as object creation, deletion, or modification. The Lambda function can then perform custom actions or process the event data.
 
 ## Amazon EC2 Fleet
 - Amazon EC2 Fleet is a feature that simplifies the provisioning of Amazon EC2 capacity across different Amazon EC2 instance types, Availability Zones, and purchase models (On-Demand, Reserved, and Spot Instances) in a single API call. This service is designed to maintain the high availability of applications in the face of unpredictable demand by deploying instances in multiple Availability Zones and managing them as a single logical unit. This way, EC2 Fleet allows users to optimize their cost and performance, while ensuring capacity is balanced across the specified Availability Zones.
@@ -271,6 +272,11 @@
 - Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. It's excellent for cloud-native applications, but it doesn't provide a hybrid cloud storage solution with on-premises access.
 - Amazon S3 Multi-Region Access Points
   - Amazon S3 Multi-Region Access Points make it simpler to build applications that require global access to data by streamlining the endpoint naming convention and by automatically routing requests to data in the most optimal AWS region. Instead of managing requests across various S3 buckets and regions, S3 Multi-Region Access Points provide a singular access point to view and access data globally, reducing the application's complexity. This is particularly beneficial for the streaming company, as users from different regions can efficiently access videos with low latency without the need for the application to handle multiple S3 regional endpoints.
+- Amazon S3 can send event notification messages to the following destinations.
+  - Amazon Simple Notification Service (Amazon SNS) topics
+  - Amazon Simple Queue Service (Amazon SQS) queues
+  - AWS Lambda
+  - Amazon EventBridge
 
 ## Amazon EFS
 - Amazon Elastic File System (Amazon EFS) provides a simple, scalable, and fully managed elastic NFS file system for use with AWS Cloud services and on-premises resources, but it's not designed for hybrid scenarios like AWS Storage Gateway.
@@ -326,6 +332,7 @@
 
 ## Amazon SNS (Simple Notification Service)
 - Amazon SNS makes it easy to set up, operate, and send notifications from the cloud.
+- Amazon SNS (Simple Notification Service) is a flexible and scalable messaging service provided by AWS. It enables the publishing and delivery of messages or notifications to multiple subscribers or endpoints, such as email, SMS, HTTP, Lambda functions, and more. SNS simplifies the decoupling of components in distributed systems, allowing for real-time, event-driven communication and notification workflows. By configuring S3 event notifications to publish to an SNS topic, you can receive notifications about events occurring in the S3 bucket.
 
 ## AWS Step Functions
 - AWS Step Functions is a serverless workflow service that lets you orchestrate distributed systems using visual workflows. Its a way to coordinate components of distributed applications and microservices.
