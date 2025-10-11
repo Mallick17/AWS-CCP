@@ -214,6 +214,9 @@
 
 ## Amazon Connect
 - Amazon Connect is a cloud-based contact center service
+
+## Amazon Kendra
+- Amazon Kendra is an intelligent search service powered by machine learning. Kendra reimagines search for your websites and applications so your employees and customers can easily find the content they are looking for, even when it’s scattered across multiple locations and content repositories within your organization.
   
 ## Amazon CodeGuru
 - Amazon CodeGuru is a developer tool that provides intelligent recommendations to improve code quality and identify the most expensive lines of code in your applications. CodeGuru can help optimize the performance and cost of software applications by improving code efficiency.
