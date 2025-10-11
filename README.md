@@ -279,6 +279,9 @@
 ## AWS Database Migration Service (DMS)
 - AWS Database Migration Service (DMS) is designed to facilitate the secure, efficient, and relatively easy migration of databases to AWS, including relational databases, data warehouses, NoSQL databases, and other types of data stores. The service supports the migration of data to and from the most widely used commercial and open-source databases. It allows for continuous data replication with high availability and minimal downtime, which is crucial for maintaining the functionality of the source database during the migration process. DMS is a highly recommended solution for companies looking to migrate their Oracle database to AWS without negatively impacting the source database's operations. This service minimizes the downtime to applications that rely on the database and ensures that data is transferred securely and efficiently, enabling a smooth transition to AWS.
 
+## AWS Migration Hub
+- AWS Migration Hub provides a central location to track the progress of application migrations across multiple AWS and partner solutions. It simplifies the process by providing visibility into the status of migrations, allowing businesses to monitor their application portfolio migrations, and ensuring that everything is proceeding as planned.
+
 ## Amazon S3
 - Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. It's excellent for cloud-native applications, but it doesn't provide a hybrid cloud storage solution with on-premises access.
 - Amazon S3 Multi-Region Access Points
