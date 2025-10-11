@@ -39,6 +39,7 @@
 - Performance Efficiency in the AWS Well-Architected Framework is about using computing resources efficiently to meet system requirements and maintaining that efficiency as demand changes and technologies evolve. It is more about specifying the right type and size of resources rather than continuous improvement of operational procedures.
 - Use optimization techniques to improve system performance
   - Using optimization techniques to improve system performance is relates more to the Performance Efficiency pillar, aiming to optimize resource utilization and enhance system performance.
+- The Performance Efficiency pillar deals with using computing resources efficiently, efficient resource utilization, choosing the right resource types, or efficient architecture designs, which are central to Performance Efficiency. 
   
 ### Cost Optimization
 - The Cost Optimization pillar is concerned with the continual effort to avoid or eliminate unnecessary costs while building systems that are scalable to meet business needs. It focuses on identifying cost-cutting opportunities.
