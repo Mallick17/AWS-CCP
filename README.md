@@ -390,6 +390,9 @@
 ## Amazon Transcribe
 - Amazon Transcribe is an automatic speech recognition (ASR) service that makes it easy for developers to add speech-to-text capability to their applications. It uses advanced machine learning technologies that can accurately transcribe audio files and live audio streams into text. It supports various audio formats and works with low-quality audio files, making it versatile for different use cases. This service offers features such as speaker identification, custom vocabulary, and real-time transcription, enhancing the accessibility and analysis of audio data. Amazon Transcribe is used across a wide range of applications, including customer service, transcription of meetings and conferences, and creating searchable archives of audio content. It supports multiple languages, making it a powerful tool for global businesses and developers looking to incorporate speech recognition into their solutions.
 
+## Amazon Translate
+- Amazon Translate is a neural machine translation service that delivers fast, high-quality, and affordable language translation. Once the audio in the video has been transcribed into text with Amazon Transcribe, Amazon Translate can be used to convert that text into French. The service is highly accurate and capable of handling the complexities and nuances of different languages.
+
 ## Amazon Polly
 - Amazon Polly turns text into lifelike speech that allows you to create applications that talk and build entirely new categories of speech-enabled products.
 
