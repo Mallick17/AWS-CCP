@@ -2,6 +2,18 @@
 ## AWS Knowledge Center
 - The AWS Knowledge Center is a valuable resource that offers answers to many of the questions about how to operate and troubleshoot various AWS services. It compiles insights and best practices from AWS support engineers, based on the common issues and solutions they encounter. This makes it an excellent tool for developers seeking to quickly resolve operational challenges or understand best practices for using AWS services. The Knowledge Center helps teams avoid common pitfalls and use AWS capabilities more effectively, ensuring they can maintain secure, high-performing, and reliable applications while optimizing cost.
 
+## AWS Cloud Development Kit (AWS CDK)
+- The AWS Cloud Development Kit (AWS CDK) is an open-source software development framework to define cloud infrastructure in code and provision it through AWS CloudFormation. It uses familiar programming languages, including JavaScript, TypeScript, Python, C#, and Java, enabling developers to harness the full power of these languages to define reusable cloud components. The CDK integrates fully with AWS services and allows developers to easily model and provision cloud application resources using well-known programming languages. This approach gives developers the high-level interfaces they need to define infrastructure without needing to interact directly with the underlying CloudFormation service.
+
+## AWS Software Developer Kit (SDK)
+- AWS SDKs are a set of libraries and tools for developers to create, deploy, and manage applications on AWS. The SDKs provide a range of features for connecting to and working with AWS services. However, it does not allow developers to define cloud application resources using programming languages, as the AWS CDK does.
+
+## AWS Command Line Interface (CLI)
+- The AWS Command Line Interface (CLI) is a unified tool that allows you to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts. It provides a way to interact with AWS services but it does not define cloud application resources using programming languages like the AWS CDK does.
+
+## AWS CodeStar
+- AWS CodeStar is a cloud-based service for creating, managing, and working with software development projects on AWS. It allows you to develop, build, and deploy applications on AWS. It does not define cloud application resources using programming languages.
+
 ## AWS Acceptable Use Policy
 - _**Security, Compliance, Data Protection, and Intellectual Property**_
 - The AWS Acceptable Use Policy (AUP) outlines the key areas that users must comply with when using AWS services. These areas include security, where AWS stipulates that users cannot carry out any actions that can compromise the security of AWS services or other users. Compliance refers to adhering to all applicable laws and regulations while using AWS services. Data protection means ensuring the privacy and security of personal data stored or processed on AWS. Intellectual property involves respecting the rights of others and not using AWS services to infringe upon these rights, such as copyrights, trademarks, or patents. In essence, the AUP guides AWS users on how to use the services responsibly and legally.
